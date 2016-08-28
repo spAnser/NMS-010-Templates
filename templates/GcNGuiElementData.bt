@@ -7,7 +7,8 @@ struct GcNGuiElementData {
     char ID[16];
     char PresetId[16];
     char CreationTime[8];
-    uint32 isHidden;
+    bool isHidden;
+    FSkip(3);
     GcNGuiLayoutData Layout;
     FSkip(4);
 };
