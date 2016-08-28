@@ -4,7 +4,6 @@
 
 #include "templates/GcNGuiElementData.bt"
 #include "templates/TkNGuiGraphicStyle.bt"
-#include "TemplateList.bt"
 
 
 struct GcNGuiLayerData {

@@ -2,6 +2,8 @@
 #ifndef NMS_GcNGuiGraphicData
 #define NMS_GcNGuiGraphicData
 
+#include "templates/TkNGuiGraphicStyle.bt"
+
 struct GcNGuiGraphicData {
     GcNGuiElementData ElementData;
     TkNGuiGraphicStyle Style;

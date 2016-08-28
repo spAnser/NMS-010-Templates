@@ -3,8 +3,7 @@
 #define NMS_GcHUDManagerData
 
 #include "templates/GcTextPreset.bt"
-#include "NMSEnums.bt"
-
+#include "templates/TkCurveType.bt"
 
 struct GcHUDManagerData {
     GcTextPreset TitleFont;

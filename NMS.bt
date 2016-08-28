@@ -13,17 +13,7 @@
 
 
 #include "TemplateDeclarations.bt"
+#include "templates/Mbin.bt"
 
-
-struct MBIN_HEADER {
-    uint     Magic;
-    uint     Unknown04;
-    uint     Unknown08;
-    uint     Unknown0C;
-    uint64   Unknown10;
-};
-
-MBIN_HEADER header;
-string TemplateName;
-local string name = TemplateName;
-NMSTemplateByName(name);
+MBIN_Header header;
+NMSTemplateByName((string)header.TemplateName);

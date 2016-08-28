@@ -11,12 +11,12 @@
 //   History: 
 //------------------------------------------------
 
-#ifndef NMS_TemplateList
-#define NMS_TemplateList
+#ifndef NMS_NMSTemplateList
+#define NMS_NMSTemplateList
 
-#include "NMSTemplate.bt"
-struct NMSChildTemplate;
-struct TemplateList {
+#include "NMSChildTemplate.bt"
+
+struct NMSTemplateList {
     uint64 listStartOffset;
     uint listSize;
     local int i;

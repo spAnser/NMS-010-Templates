@@ -1,3 +1,33 @@
+
+
+#include "templates/NMSBool.bt" 
+#include "templates/NMSMath.bt"
+#include "templates/NMSColor.bt" 
+#include "templates/NMSEnums.bt" 
+#include "templates/NMSTemplate.bt" 
+#include "templates/NMSChildTemplate.bt" 
+
+#include "templates/GcFontTypesEnum.bt"
+#include "templates/GcHUDManagerData.bt"
+#include "templates/GcNGuiElementData.bt"
+#include "templates/GcNGuiGraphicData.bt"
+#include "templates/GcNGuiLayerData.bt"
+#include "templates/GcNGuiLayoutData.bt"
+#include "templates/GcNGuiTextData.bt"
+#include "templates/GcTextPreset.bt"
+#include "templates/GcTextPresetTable.bt"
+#include "templates/TkCurveType.bt"
+#include "templates/TkImGuiData.bt"
+#include "templates/TkImGuiWindowData.bt"
+#include "templates/TkNGuiAlignment.bt"
+#include "templates/TkNGuiGraphicStyle.bt"
+#include "templates/TkNGuiGraphicStyleData.bt"
+#include "templates/TkNGuiTextStyle.bt"
+#include "templates/TkNGuiTextStyleData.bt"
+
+
+
+
 /*
 struct TkMaterialData;
 struct TkSceneNodeData;
@@ -136,20 +166,3 @@ struct GcWaterGlobals;
 */
 
 
-#include "templates/GcFontTypesEnum.bt"   
-#include "templates/GcNGuiTextData.bt"     
-#include "templates/TkNGuiAlignment.bt"
-#include "templates/GcHUDManagerData.bt"   
-#include "templates/GcTextPreset.bt"       
-#include "templates/TkNGuiGraphicStyle.bt"
-#include "templates/GcNGuiElementData.bt" 
-#include "templates/GcTextPresetTable.bt" 
-#include "templates/TkNGuiGraphicStyleData.bt"
-#include "templates/GcNGuiGraphicData.bt"  
-#include "templates/TkCurveType.bt"        
-#include "templates/TkNGuiTextStyle.bt"
-#include "templates/GcNGuiLayerData.bt"   
-#include "templates/TkImGuiData.bt"        
-#include "templates/TkNGuiTextStyleData.bt"
-#include "templates/GcNGuiLayoutData.bt"   
-#include "templates/TkImGuiWindowData.bt"

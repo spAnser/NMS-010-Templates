@@ -14,9 +14,7 @@
 #ifndef NMS_NMSChildTemplate
 #define NMS_NMSChildTemplate
 
-#include "NMSTemplate.bt"
-
-void NMSTemplateByName (string type);
+#include "templates/NMSTemplate.bt"
 
 struct NMSChildTemplate {
     
