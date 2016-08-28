@@ -1,0 +1,33 @@
+//------------------------------------------------
+//--- 010 Editor v7.0.2 Binary Template
+//
+//      File: 
+//   Authors: 
+//   Version: 
+//   Purpose: 
+//  Category: 
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+#ifndef NMS_NMSChildTemplate
+#define NMS_NMSChildTemplate
+
+#include "NMSTemplate.bt"
+
+struct NMSChildTemplate {
+    
+    uint64 offset;
+    char TemplateName[64];
+    if (offset > 0) {
+        FSeek( startof(offset) + offset);
+    } else {
+        FSkip(4);
+    }
+
+    local string name = TemplateName;
+    NMSTemplateByName(name);
+};
+
+#endif

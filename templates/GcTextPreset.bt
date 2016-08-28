@@ -1,7 +1,17 @@
+
+#ifndef NMS_GcTextPreset
+#define NMS_GcTextPreset
+
+#include "GcFontTypesEnum.bt"
+#include "NMSChildTemplate.bt"
+#include "NMSColor.bt"
+
 struct GcTextPreset {
     GcFontTypesEnum FontType;
-    NMSTemplate TextStyle;
+    NMSChildTemplate TextStyle;
     float Height;
     FSkip(12);
     colour Colour;
 };
+
+#endif

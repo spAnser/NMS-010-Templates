@@ -1,3 +1,11 @@
+
+#ifndef NMS_GcNGuiTextData
+#define NMS_GcNGuiTextData
+
+#include "GcNGuiElementData.bt"
+#include "TkNGuiTextStyle.bt"
+#include "TkNGuiGraphicStyle.bt"
+
 struct GcNGuiTextData {
     GcNGuiElementData Data;
     TkNGuiTextStyle Style;
@@ -7,3 +15,7 @@ struct GcNGuiTextData {
     bool Special;
     byte __pad__[15] <hidden=true>;
 };
+
+
+#endif
+

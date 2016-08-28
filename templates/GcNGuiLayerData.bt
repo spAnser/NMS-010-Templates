@@ -1,8 +1,18 @@
+
+#ifndef NMS_GcNGuiLayerData
+#define NMS_GcNGuiLayerData
+
+#include "GcNGuiElementData.bt"
+#include "TkNGuiGraphicStyle.bt"
+#include "NMSTemplateList.bt"
+
 struct GcNGuiLayerData {
     GcNGuiElementData Data;
     TkNGuiGraphicStyle Style;
     char Image[128];
-    List Children;
+    NMSTemplateList Children;
     uint unknown;
     char DataFilename[128];
 };
+
+#endif

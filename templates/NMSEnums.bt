@@ -1,32 +1,37 @@
-enum <byte> bool {
-    False,
-    True
-};
+
+#ifndef NMS_ENUMS_BT
+#define NMS_ENUMS_BT
+
 enum animate {
     None = 0,
     WipeRightToLeft = 1,
     SimpleWipe = 2,
     CustomWipe = 3,
 };
+
 enum shape {
     Rectangle,
     Ellipse,
 };
+
 enum gradient {
     none,
     Vertical,
     Horizontal
 };
+
 enum vertical {
     Top = 0,
     Middle = 1,
     Bottom = 2,
 };
+
 enum horizontal {
     Left = 0,
     Center = 1,
     Right = 2,
 };
+
 enum curve {
     Linear,
     SmoothInOut,
@@ -68,6 +73,7 @@ enum curve {
     EaseOutBounce,
     EaseInOutBounce,
 };
+
 enum fonttype {
     Impact,
     Bebas,
@@ -78,3 +84,6 @@ enum fonttype {
     Segoeuib,
     Segoeui32,
 };
+
+
+#endif

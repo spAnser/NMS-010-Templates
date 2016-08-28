@@ -1,9 +1,17 @@
+
+#ifndef NMS_GcNGuiElementData
+#define NMS_GcNGuiElementData
+
+#include "GcNGuiLayoutData.bt"
+
+
 struct GcNGuiElementData {
     char ID[16];
     char PresetId[16];
     char CreationTime[8];
-    bool isHidden;
-    FSkip(3);
+    uint32 isHidden;
     GcNGuiLayoutData Layout;
     FSkip(4);
 };
+
+#endif

@@ -1,0 +1,16 @@
+
+#ifndef NMS_MbinHeader 
+#define NMS_MbinHeader 
+
+
+
+struct MBIN_Header {
+    uint     Magic;
+    uint     Unknown04;
+    uint     Unknown08;
+    uint     Unknown0C;
+    uint64   Unknown10;
+    char  	 TemplateName[72];
+};
+
+#endif

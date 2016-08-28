@@ -1,3 +1,11 @@
+
+#ifndef NMS_TkNGuiGraphicStyleData
+#define NMS_TkNGuiGraphicStyleData
+
+#include "NMSEnums.bt"
+#include "NMSBool.bt"
+#include "NMSColor.bt"
+
 struct TkNGuiGraphicStyleData {
     float PaddingX;
     float PaddingY;
@@ -21,3 +29,5 @@ struct TkNGuiGraphicStyleData {
     uint Image;
     uint Icon;
 };
+
+#endif

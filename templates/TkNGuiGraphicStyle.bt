@@ -1,3 +1,11 @@
+
+#ifndef NMS_TkNGuiGraphicStyle
+#define NMS_TkNGuiGraphicStyle
+
+#include "TkNGuiGraphicStyleData.bt"
+#include "NMSMath.bt"
+#include "NMSEnums.bt"
+
 struct TkNGuiGraphicStyle {
     TkNGuiGraphicStyleData Default;
     TkNGuiGraphicStyleData Highlight;
@@ -13,3 +21,6 @@ struct TkNGuiGraphicStyle {
     Vector2f CustomMaxStart;
     FSkip(4);
 };
+
+
+#endif

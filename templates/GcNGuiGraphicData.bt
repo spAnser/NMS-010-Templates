@@ -1,5 +1,14 @@
+
+#ifndef NMS_GcNGuiGraphicData
+#define NMS_GcNGuiGraphicData
+
+#include "GcNGuiElementData.bt"
+#include "TkNGuiGraphicStyle.bt"
+
 struct GcNGuiGraphicData {
     GcNGuiElementData ElementData;
     TkNGuiGraphicStyle Style;
     char Image[128];
 };
+
+#endif

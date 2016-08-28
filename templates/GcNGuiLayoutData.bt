@@ -1,3 +1,10 @@
+
+#ifndef NMS_GcNGuiLayoutData
+#define NMS_GcNGuiLayoutData
+
+#include "TkNGuiAlignment.bt"
+#include "NMSBool.bt"
+
 struct GcNGuiLayoutData
 {
     float PosX;
@@ -18,3 +25,5 @@ struct GcNGuiLayoutData
     bool SlowCursorOnHover;
     FSkip(7);
 };
+
+#endif
