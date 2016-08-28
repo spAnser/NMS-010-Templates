@@ -1,11 +1,11 @@
 
-
-#include "NMSColor.bt";
-#include "NMSBool.bt";
-#include "NMSEnums.bt";
-
 #ifndef NMS_TkNGuiGraphicStyleData
 #define NMS_TkNGuiGraphicStyleData
+
+#include "NMSColor.bt"
+#include "NMSBool.bt"
+#include "NMSEnums.bt"
+
 
 struct TkNGuiGraphicStyleData {
     float PaddingX;

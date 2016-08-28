@@ -1,11 +1,10 @@
 
-
-
 #ifndef NMS_GcTextPreset
 #define NMS_GcTextPreset
 
-#include "templates/GcFontTypesEnum.bt";
-#include "NMSChildTemplate.bt";
+#include "templates/GcFontTypesEnum.bt"
+#include "NMSChildTemplate.bt"
+
 
 struct GcTextPreset {
     GcFontTypesEnum FontType;

@@ -11,14 +11,6 @@
 //   History:
 //------------------------------------------------
 
-//#include "NMSTemplate.bt"
-
-//struct List;
-//struct NMSChildTemplate;
-//#include "Enums.bt";
-//#include "MiscStruct.bt";
-//#include "TemplateIncludes.bt";
-//#include "TemplateList.bt"
 
 #include "TemplateDeclarations.bt"
 

@@ -3,11 +3,9 @@
 #ifndef NMS_TkNGuiTextStyleData
 #define NMS_TkNGuiTextStyleData
 
-
 #include "NMSColor.bt"
 #include "NMSBool.bt"
 #include "templates/TkNGuiAlignment.bt"
-
 
 
 struct TkNGuiTextStyleData {

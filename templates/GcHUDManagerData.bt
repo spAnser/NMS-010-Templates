@@ -1,11 +1,9 @@
 
-
-
 #ifndef NMS_GcHUDManagerData
 #define NMS_GcHUDManagerData
 
-#include "templates/GcTextPreset.bt";
-#include "NMSEnums.bt";
+#include "templates/GcTextPreset.bt"
+#include "NMSEnums.bt"
 
 
 struct GcHUDManagerData {

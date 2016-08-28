@@ -1,11 +1,12 @@
 
-
 #ifndef NMS_GcNGuiLayerData
 #define NMS_GcNGuiLayerData
 
 #include "templates/GcNGuiElementData.bt"
 #include "templates/TkNGuiGraphicStyle.bt"
 #include "TemplateList.bt"
+
+
 struct GcNGuiLayerData {
     GcNGuiElementData Data;
     TkNGuiGraphicStyle Style;

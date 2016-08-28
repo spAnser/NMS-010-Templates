@@ -10,6 +10,6 @@ struct Vector2f {
 
 struct String128 {
     char String[128];
-}
+};
 
 #endif

@@ -1,11 +1,10 @@
 
-
-
 #ifndef NMS_GcFontTypesEnum
 #define NMS_GcFontTypesEnum
 
 #include "templates/TkNGuiAlignment.bt"
 #include "NMSBool.bt"
+
 
 struct GcFontTypesEnum
 {

@@ -1,11 +1,11 @@
 
+#ifndef NMS_GcNGuiTextData
+#define NMS_GcNGuiTextData
 
 #include "templates/GcNGuiElementData.bt"
 #include "templates/TkNGuiTextStyle.bt"
 #include "templates/TkNGuiGraphicStyle.bt"
 
-#ifndef NMS_GcNGuiTextData
-#define NMS_GcNGuiTextData
 
 struct GcNGuiTextData {
     GcNGuiElementData Data;

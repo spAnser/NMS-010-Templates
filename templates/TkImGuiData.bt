@@ -2,7 +2,8 @@
 #ifndef NMS_TkImGuiData
 #define NMS_TkImGuiData
 
-#include "templates/TkImGuiWindowData.bt";
+#include "templates/TkImGuiWindowData.bt"
+
 
 struct TkImGuiData {
     TkImGuiWindowData MainWindow;

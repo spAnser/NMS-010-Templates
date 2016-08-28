@@ -1,10 +1,11 @@
 
+#ifndef NMS_TkNGuiGraphicStyle
+#define NMS_TkNGuiGraphicStyle
+
 #include "NMSMath.bt"
 #include "templates/TkNGuiGraphicStyleData.bt"
 #include "templates/TkCurveType.bt"
 
-#ifndef NMS_TkNGuiGraphicStyle
-#define NMS_TkNGuiGraphicStyle
 
 struct TkNGuiGraphicStyle {
     TkNGuiGraphicStyleData Default;
