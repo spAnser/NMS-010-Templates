@@ -1,39 +1,48 @@
 //------------------------------------------------
 //--- 010 Editor v7.0.2 Binary Template
 //
-//      File: 
-//   Authors: 
-//   Version: 
-//   Purpose: 
-//  Category: 
-// File Mask: 
-//  ID Bytes: 
-//   History: 
+//      File:
+//   Authors:
+//   Version:
+//   Purpose:
+//  Category:
+// File Mask:
+//  ID Bytes:
+//   History:
 //------------------------------------------------
 #include "TemplateDefinitions.bt";
-struct ChildList;
+struct List;
+struct NMSTemplate;
 #include "Enums.bt";
 #include "MiscStruct.bt";
-#include "templates/GcNGuiElementData.bt";
-#include "templates/GcNGuiGraphicData.bt";
-#include "templates/GcNGuiLayerData.bt";
-#include "templates/GcNGuiLayoutData.bt";
-#include "templates/GcNGuiTextData.bt";
-#include "templates/TkCurveType.bt";
-#include "templates/TkNGuiAlignment.bt";
-#include "templates/TkNGuiGraphicStyle.bt";
-#include "templates/TkNGuiGraphicStyleData.bt";
-#include "templates/TkNGuiTextStyle.bt";
-#include "templates/TkNGuiTextStyleData.bt";
+#include "TemplateIncludes.bt";
 
-struct ChildList {
+struct List {
+    uint64 listStartOffset;
+    uint listSize;
+    local int i;
+    for (i=0;i<listSize;i++) {
+        FSeek( startof(listStartOffset) + listStartOffset + (i * 72));
+        NMSTemplate child;
+    }
+    FSeek( startof(listSize) + 4);
+};
+
+struct NMSTemplate {
     uint64 offset;
     char TemplateName[64];
-    FSeek( startof(offset) + offset);
+    if (offset > 0) {
+        FSeek( startof(offset) + offset);
+    } else {
+        FSkip(4);
+    }
     switch (TemplateName)
     {
+        case "cGcHUDManagerData":
+            GcHUDManagerData Data;
+            break;
         case "cGcNGuiElementData":
-            GcNGuiGraphicData Data;
+            GcNGuiElementData Data;
             break;
         case "cGcNGuiGraphicData":
             GcNGuiGraphicData Data;
@@ -78,8 +87,11 @@ struct MBIN {
         char TemplateName[72];
         switch (TemplateName)
         {
+            case "cGcHUDManagerData":
+                GcHUDManagerData Data;
+                break;
             case "cGcNGuiElementData":
-                GcNGuiGraphicData Data;
+                GcNGuiElementData Data;
                 break;
             case "cGcNGuiGraphicData":
                 GcNGuiGraphicData Data;

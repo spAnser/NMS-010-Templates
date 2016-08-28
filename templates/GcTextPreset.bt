@@ -1,0 +1,7 @@
+struct GcTextPreset {
+    GcFontTypesEnum FontType;
+    NMSTemplate TextStyle;
+    float Height;
+    FSkip(12);
+    colour Colour;
+};

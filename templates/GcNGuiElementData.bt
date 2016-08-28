@@ -3,7 +3,7 @@ struct GcNGuiElementData {
     char PresetId[16];
     char CreationTime[8];
     bool isHidden;
-    byte __pad__[3] <hidden=true>;
+    FSkip(3);
     GcNGuiLayoutData Layout;
-    byte __pad2__[8] <hidden=true>;
+    FSkip(4);
 };

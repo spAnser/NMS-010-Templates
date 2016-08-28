@@ -68,3 +68,13 @@ enum curve {
     EaseOutBounce,
     EaseInOutBounce,
 };
+enum fonttype {
+    Impact,
+    Bebas,
+    GeosansLightWide,
+    GeosansLight,
+    GeosansLightMedium,
+    GeosansLightSmall,
+    Segoeuib,
+    Segoeui32,
+};

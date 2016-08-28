@@ -7,9 +7,9 @@ struct TkNGuiGraphicStyle {
     animate Animate;
     float AnimTime;
     float AnimSplit;
-    TkCurveType Curve;
-    TkCurveType Curve;
-    unknownXY CustomMinStart;
-    unknownXY CustomMaxStart;
-    byte __pad__[4] <hidden=true>;
+    TkCurveType Curve1;
+    TkCurveType Curve2;
+    Vector2f CustomMinStart;
+    Vector2f CustomMaxStart;
+    FSkip(4);
 };

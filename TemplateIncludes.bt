@@ -1,0 +1,15 @@
+#include "templates/GcFontTypesEnum.bt";
+#include "templates/GcHUDManagerData.bt";
+#include "templates/GcNGuiElementData.bt";
+#include "templates/GcNGuiGraphicData.bt";
+#include "templates/GcNGuiLayerData.bt";
+#include "templates/GcNGuiLayoutData.bt";
+#include "templates/GcNGuiTextData.bt";
+#include "templates/GcTextPreset.bt";
+#include "templates/GcTextPresetTable.bt";
+#include "templates/TkCurveType.bt";
+#include "templates/TkNGuiAlignment.bt";
+#include "templates/TkNGuiGraphicStyle.bt";
+#include "templates/TkNGuiGraphicStyleData.bt";
+#include "templates/TkNGuiTextStyle.bt";
+#include "templates/TkNGuiTextStyleData.bt";

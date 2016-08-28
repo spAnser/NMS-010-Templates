@@ -1,8 +1,8 @@
-struct unknownXY {
-    float unk0;
-    float unk1;
+struct Vector2f {
+    float x;
+    float y;
 };
-struct color {
+struct colour {
     float R;
     float G;
     float B;
