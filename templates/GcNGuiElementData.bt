@@ -1,9 +1,7 @@
-
 #ifndef NMS_GcNGuiElementData
 #define NMS_GcNGuiElementData
 
 #include "GcNGuiLayoutData.bt"
-
 
 struct GcNGuiElementData {
     char ID[16];

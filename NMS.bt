@@ -1,18 +1,3 @@
-//------------------------------------------------
-//--- 010 Editor v7.0.2 Binary Template
-//
-//      File:
-//   Authors:
-//   Version:
-//   Purpose:
-//  Category:
-// File Mask:
-//  ID Bytes:
-//   History:
-//------------------------------------------------
-
-
-
 /* To add a new template definition :
  *  1. Add your template in the templates/ directory
  *  2. Add corresponding entries into templates/NMSTemplate.bt

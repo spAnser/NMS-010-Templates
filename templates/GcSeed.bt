@@ -1,7 +1,5 @@
-
 #ifndef NMS_GcSeed
 #define NMS_GcSeed
-
 
 struct GcSeed
 {

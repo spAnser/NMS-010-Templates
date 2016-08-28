@@ -1,4 +1,3 @@
-
 #ifndef NMS_GcNGuiTextData
 #define NMS_GcNGuiTextData
 
@@ -16,6 +15,4 @@ struct GcNGuiTextData {
     byte __pad__[15] <hidden=true>;
 };
 
-
 #endif
-

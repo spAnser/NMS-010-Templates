@@ -1,9 +1,7 @@
-
 #ifndef NMS_GcTextPresetTable
 #define NMS_GcTextPresetTable
 
 #include "GcTextPreset.bt"
-
 
 struct GcTextPresetTable {
     struct GcTextPreset Table;

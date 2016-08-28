@@ -1,7 +1,5 @@
-
 #ifndef NMS_GcHUDManagerData
 #define NMS_GcHUDManagerData
-
 
 #include "NMSEnums.bt"
 #include "NMSBool.bt"

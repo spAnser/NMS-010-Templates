@@ -1,7 +1,5 @@
-
 #ifndef NMS_TkNoiseUberLayerData
 #define NMS_TkNoiseUberLayerData
-
 
 #include "TkNoiseUberData.bt"
 #include "NMSEnums.bt"

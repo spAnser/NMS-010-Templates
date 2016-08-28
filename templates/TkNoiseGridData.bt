@@ -1,7 +1,5 @@
-
 #ifndef NMS_TkNoiseGridData
 #define NMS_TkNoiseGridData
-
 
 #include "TkNoiseUberLayerData.bt"
 #include "TkNoiseSuperFormulaData.bt"
@@ -41,9 +39,9 @@ struct TkNoiseGridData
     float SmoothRadius;
     int SeedOffset;
     float RandomPrimitive;
-    TkNoiseSuperFormulaData SuperFormula1; 
-    TkNoiseSuperFormulaData SuperFormula2; 
-    TkNoiseSuperFormulaData SuperFormula3; 
+    TkNoiseSuperFormulaData SuperFormula1;
+    TkNoiseSuperFormulaData SuperFormula2;
+    TkNoiseSuperFormulaData SuperFormula3;
 
     byte Padding178[0xC]; // ???
 };

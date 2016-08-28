@@ -1,4 +1,3 @@
-
 #ifndef NMS_GcFontTypesEnum
 #define NMS_GcFontTypesEnum
 
@@ -7,6 +6,5 @@
 struct GcFontTypesEnum {
     fonttype Font;
 };
-
 
 #endif

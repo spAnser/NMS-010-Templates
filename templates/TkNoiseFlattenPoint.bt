@@ -1,7 +1,5 @@
-
 #ifndef NMS_TkNoiseFlattenPoint
 #define NMS_TkNoiseFlattenPoint
-
 
 #include "NMSEnums.bt"
 
@@ -20,6 +18,5 @@ struct TkNoiseFlattenPoint
     byte AddLandingPad;
     byte Padding27[1];
 };
-
 
  #endif

@@ -1,7 +1,5 @@
-
 #ifndef NMS_TkVoxelGeneratorRegionData
 #define NMS_TkVoxelGeneratorRegionData
-
 
 #include "TkNoiseFlattenPointList.bt"
 #include "NMSList.bt" // for FloatList
@@ -13,11 +11,9 @@ struct TkVoxelGeneratorRegionData
     float VoronoiPointDivisions;
     int VoronoiSectorSeed;
     int VoronoiPointSeed;
-    
 
     TkNoiseFlattenPointList NoiseFlattenPointList;
     FloatList FlattenTypeChances;
-
 
     int WaypointIndex;
     int LandingPadIndex;

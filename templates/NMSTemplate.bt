@@ -1,17 +1,3 @@
-//------------------------------------------------
-//--- 010 Editor v7.0.2 Binary Template
-//
-//      File:
-//   Authors:
-//   Version:
-//   Purpose:
-//  Category:
-// File Mask:
-//  ID Bytes:
-//   History:
-//------------------------------------------------
-
-
 #ifndef NMS_TEMPLATE_BT
 #define NMS_TEMPLATE_BT
 
@@ -50,6 +36,5 @@ void NMSTemplateByName (string type) {
         }
     }
 };
-
 
 #endif

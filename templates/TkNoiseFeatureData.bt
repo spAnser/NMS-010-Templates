@@ -1,7 +1,5 @@
-
 #ifndef NMS_TkNoiseFeatureData
 #define NMS_TkNoiseFeatureData
-
 
 #include "NMSEnums.bt"
 
@@ -13,7 +11,7 @@ struct TkNoiseFeatureData
     byte Trench;
     uint16 _pad;
     enum NoiseVoxelType VoxelType;
-    enum NoiseFeatureType FeatureType; 
+    enum NoiseFeatureType FeatureType;
     float Width;
     float Height;
     int Octaves;

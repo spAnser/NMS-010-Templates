@@ -15,7 +15,6 @@ FSeek( startof(listHeader) + listHeader.DataOffset);
 #define END_UNIFORM_LIST \
 FSeek( startof(listHeader) + sizeof(listHeader));
 
-
 // Common primitive types
 struct FloatList
 {
@@ -23,7 +22,5 @@ struct FloatList
     float Items[LIST_SIZE];
     END_UNIFORM_LIST;
 };
-
-
 
 #endif

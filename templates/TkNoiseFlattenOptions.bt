@@ -1,4 +1,3 @@
-
 #ifndef NMS_TkNoiseFlattenOptions
 #define NMS_TkNoiseFlattenOptions
 
@@ -9,6 +8,5 @@ struct TkNoiseFlattenOptions
     enum NoiseFlattening Flattening;
     enum WaterPlacement Placement;
 };
-
 
  #endif

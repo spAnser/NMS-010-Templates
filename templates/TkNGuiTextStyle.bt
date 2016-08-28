@@ -1,9 +1,7 @@
-
 #ifndef NMS_TkNGuiTextStyle
 #define NMS_TkNGuiTextStyle
 
 #include "TkNGuiTextStyleData.bt"
-
 
 struct TkNGuiTextStyle {
     TkNGuiTextStyleData Default;

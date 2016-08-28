@@ -1,4 +1,3 @@
-
 #ifndef NMS_TkVoxelGeneratorData
 #define NMS_TkVoxelGeneratorData
 
@@ -7,6 +6,7 @@
 #include "TkNoiseFeatureData.bt"
 #include "TkNoiseCaveData.bt"
 #include "TkVoxelGeneratorRegionData.bt"
+
 #include "NMSEnums.bt"
 
 struct TkVoxelGeneratorData {
@@ -15,11 +15,11 @@ struct TkVoxelGeneratorData {
     float NoSeaBaseLevel;
     enum NoiseVoxelType NoiseVoxelType1;
     enum NoiseVoxelType NoiseVoxelType2;
-    
+
     TkNoiseUberLayerData NoiseLayers[7];
     TkNoiseGridData GridLayers[9];
     TkNoiseFeatureData Features[7];
-    
+
     TkNoiseCaveData CavesUnderground;
     float MinimumCaveDepth;
     float CaveRoofSmoothingDist;

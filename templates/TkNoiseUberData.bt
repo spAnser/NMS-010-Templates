@@ -1,7 +1,5 @@
-
 #ifndef NMS_TkNoiseUberData
 #define NMS_TkNoiseUberData
-
 
 #include "TkNoiseUberData.bt"
 #include "NMSEnums.bt"
@@ -17,7 +15,7 @@ struct TkNoiseUberData
     float SlopeErosion;
     float Lacunarity;
     float Gain;
-    enum DebugNoiseType NoiseType; 
+    enum DebugNoiseType NoiseType;
 };
 
  #endif

@@ -1,5 +1,3 @@
-
-
 #ifndef NSM_TemplateDeclarations
 #define NMS_TemplateDeclarations
 
@@ -46,9 +44,6 @@
 #include "TkVoxelGeneratorData.bt"
 #include "TkVoxelGeneratorSettingsElement.bt"
 #include "TkVoxelGeneratorSettingsArray.bt"
-
-
-
 
 #endif
 
