@@ -1,0 +1,16 @@
+
+#ifndef NMS_TkNoiseCaveData
+#define NMS_TkNoiseCaveData
+
+
+#include "TkNoiseFeatureData.bt"
+#include "NMSEnums.bt"
+
+struct TkNoiseCaveData
+{
+    int MaximumLOD;
+    TkNoiseFeatureData Mouth;
+    TkNoiseFeatureData Tunnel;
+};
+
+ #endif

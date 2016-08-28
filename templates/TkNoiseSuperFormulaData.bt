@@ -1,0 +1,13 @@
+
+#ifndef NMS_TkNoiseSuperFormulaData
+#define NMS_TkNoiseSuperFormulaData
+
+struct TkNoiseSuperFormulaData
+{
+    float Form_m;
+    float Form_n1;
+    float Form_n2;
+    float Form_n3;
+};
+
+ #endif

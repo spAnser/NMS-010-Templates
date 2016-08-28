@@ -37,7 +37,7 @@ void NMSTemplateByName (string type) {
         case "cTkNGuiGraphicStyleData":     struct TkNGuiGraphicStyleData Data; break;
         case "cTkNGuiTextStyle":            struct TkNGuiTextStyle Data; break;
         case "cTkNGuiTextStyleData":        struct TkNGuiTextStyleData Data; break;
-
+        case "cTkVoxelGeneratorSettingsArray": struct TkVoxelGeneratorSettingsArray Data; break;
         
 
         default: 

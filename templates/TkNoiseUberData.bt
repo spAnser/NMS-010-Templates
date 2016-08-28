@@ -1,0 +1,23 @@
+
+#ifndef NMS_TkNoiseUberData
+#define NMS_TkNoiseUberData
+
+
+#include "TkNoiseUberData.bt"
+#include "NMSEnums.bt"
+
+struct TkNoiseUberData
+{
+    int Octaves;
+    float SharpToRoundFeatures;
+    float AmplifyFeatures;
+    float PerturbFeatures;
+    float AltitudeErosion;
+    float RidgeErosion;
+    float SlopeErosion;
+    float Lacunarity;
+    float Gain;
+    enum DebugNoiseType NoiseType; 
+};
+
+ #endif

@@ -30,6 +30,24 @@
 #include "TkNGuiTextStyle.bt"
 #include "TkNGuiTextStyleData.bt"
 
+#include "TkNoiseSuperFormulaData.bt"
+#include "TkNoiseCaveData.bt"
+#include "TkNoiseUberLayerData.bt"
+#include "TkNoiseGridData.bt"
+#include "TkNoiseUberData.bt"
+#include "TkNoiseFlattenOptions.bt"
+#include "TkNoiseFlattenPoint.bt"
+#include "TkNoiseFlattenPointList.bt"
+#include "TkVoxelGeneratorRegionData.bt"
+#include "TkNoiseFeatureData.bt"
+#include "GcSeed.bt"
+#include "TkVoxelGeneratorData.bt"
+#include "TkVoxelGeneratorSettingsElement.bt"
+#include "TkVoxelGeneratorSettingsArray.bt"
+
+
+
+
 #endif
 
 

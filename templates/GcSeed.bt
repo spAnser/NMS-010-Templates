@@ -1,0 +1,13 @@
+
+#ifndef NMS_GcSeed
+#define NMS_GcSeed
+
+
+struct GcSeed
+{
+    uint64 Seed <format=hex>;
+    byte UseSeedValue;
+    byte Padding9[7];
+};
+
+ #endif

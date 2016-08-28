@@ -85,5 +85,67 @@ enum fonttype {
     Segoeui32,
 };
 
+enum NoiseVoxelType {
+    Base = 0, 
+    Rock, 
+    Mountain, 
+    Sand, 
+    Cave, 
+    Substance_1, 
+    Substance_2, 
+    Substance_3, 
+    RandomRock, 
+    RandomRockOrSubstance
+};
+
+enum NoiseFeatureType {
+    Tube = 0,
+    Blob
+};
+
+
+enum NoiseGridType {
+    Grid_Cube, 
+    Grid_Cone, 
+    Grid_Torus, 
+    Grid_Sphere, 
+    Grid_Cylinder, 
+    Grid_Capsule, 
+    Grid_Corridor, 
+    Grid_Pipe,
+    Grid_Puck, 
+    Grid_SuperPrimitiveRandom, 
+    Grid_SuperFormula01, 
+    Grid_SuperFormula02, 
+    Grid_SuperFormula03, 
+    Grid_SuperFormula04, 
+    Grid_SuperFormula05, 
+    Grid_SuperFormula06,
+    Grid_SuperFormula07,
+    Grid_SuperFormula08,
+    Grid_SuperFormulaRandom,
+    Grid_SuperFormula,
+    Grid_SuperPrimitive,
+    Grid_File
+};
+
+enum DebugNoiseType {
+    Plane = 0,
+    Check, 
+    Sine, 
+    Uber 
+};
+
+enum NoiseFlattening {
+    Flattening_None = 0, 
+    Flattening_Natural, 
+    Flattening_Artificial, 
+    Flattening_AddResource
+};
+
+enum WaterPlacement {
+    WaterPlacement_None = 0, 
+    WaterPlacement_Underwater
+};
 
 #endif

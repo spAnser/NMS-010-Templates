@@ -1,0 +1,11 @@
+
+#ifndef NMS_TkVoxelGeneratorSettingsArray
+#define NMS_TkVoxelGeneratorSettingsArray
+
+#include "TkVoxelGeneratorSettingsElement.bt"
+
+struct TkVoxelGeneratorSettingsArray {
+    struct TkVoxelGeneratorSettingsElement elements[10] <optimize=false>;
+};
+
+#endif
