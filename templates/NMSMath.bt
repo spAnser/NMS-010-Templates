@@ -9,6 +9,13 @@ struct Vector2f {
     float y;
 };
 
+struct Vector4f {
+    float x;
+    float y;
+    float z;
+    float t;
+};
+
 struct String128 {
     char String[128];
 };
