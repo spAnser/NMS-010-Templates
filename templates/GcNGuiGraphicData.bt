@@ -1,5 +1,11 @@
+
+#ifndef NMS_GcNGuiGraphicData
+#define NMS_GcNGuiGraphicData
+
 struct GcNGuiGraphicData {
     GcNGuiElementData ElementData;
     TkNGuiGraphicStyle Style;
     char Image[128];
 };
+
+#endif

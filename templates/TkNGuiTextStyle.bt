@@ -1,5 +1,13 @@
+
+#include "templates/TkNGuiTextStyleData.bt"
+
+#ifndef NMS_TkNGuiTextStyle
+#define NMS_TkNGuiTextStyle
+
 struct TkNGuiTextStyle {
     TkNGuiTextStyleData Default;
     TkNGuiTextStyleData Highlight;
     TkNGuiTextStyleData Active;
 };
+
+#endif

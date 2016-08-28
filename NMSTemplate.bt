@@ -1,0 +1,53 @@
+//------------------------------------------------
+//--- 010 Editor v7.0.2 Binary Template
+//
+//      File: 
+//   Authors: 
+//   Version: 
+//   Purpose: 
+//  Category: 
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+
+#ifndef NMS_TEMPLATE_BT
+#define NMS_TEMPLATE_BT
+
+#include "TemplateDeclarations.bt"
+
+void NMSTemplateByName (string type) {
+    Printf(type);
+    switch(type) {
+
+        case "": /* triggered by forward-declaring structs */ break;
+
+        case "cGcHUDManagerData":           struct GcHUDManagerData Data; break;
+        case "cGcNGuiElementData":          struct GcNGuiElementData Data; break;
+        case "cGcNGuiGraphicData":          struct GcNGuiGraphicData Data; break;
+        case "cGcNGuiLayerData":            struct GcNGuiLayerData Data; break;
+        case "cGcNGuiLayoutData":           struct GcNGuiLayoutData Data; break;
+        case "cGcNGuiTextData":             struct GcNGuiTextData Data; break;
+        case "cTkCurveType":                struct TkCurveType Data; break;
+        case "cTkImGuiData":                struct TkImGuiData Data; break;
+        case "cTkImGuiWindowData":          struct TkImGuiWindowData Data; break;
+        case "cTkNGuiAlignment":            struct TkNGuiAlignment Data; break;
+        case "cTkNGuiGraphicStyle":         struct TkNGuiGraphicStyle Data; break;
+        case "cTkNGuiGraphicStyleData":     struct TkNGuiGraphicStyleData Data; break;
+        case "cTkNGuiTextStyle":            struct TkNGuiTextStyle Data; break;
+        case "cTkNGuiTextStyleData":        struct TkNGuiTextStyleData Data; break;
+
+        
+
+        default: 
+        {
+            Printf("Warning: Template %s not implemented\n", type);
+            Warning("Template %s not implemented\n", type);
+            break;
+        }
+    }
+};
+
+
+#endif

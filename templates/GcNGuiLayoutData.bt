@@ -1,4 +1,13 @@
-struct GcNGuiLayoutData
+
+
+
+#ifndef NMS_GcFontTypesEnum
+#define NMS_GcFontTypesEnum
+
+#include "templates/TkNGuiAlignment.bt"
+#include "NMSBool.bt"
+
+struct GcFontTypesEnum
 {
     float PosX;
     float PosY;
@@ -18,3 +27,5 @@ struct GcNGuiLayoutData
     bool SlowCursorOnHover;
     FSkip(7);
 };
+
+#endif

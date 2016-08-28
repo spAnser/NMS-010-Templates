@@ -1,3 +1,9 @@
+
+#ifndef NMS_TkImGuiData
+#define NMS_TkImGuiData
+
+#include "templates/TkImGuiWindowData.bt";
+
 struct TkImGuiData {
     TkImGuiWindowData MainWindow;
     FSkip(3);
@@ -13,3 +19,5 @@ struct TkImGuiData {
     }
     uint WindowCount;
 };
+
+#endif

@@ -1,13 +1,15 @@
+
+
+#ifndef NMS_MATH_BT
+#define NMS_MATH_BT
+
 struct Vector2f {
     float x;
     float y;
 };
-struct colour {
-    float R;
-    float G;
-    float B;
-    float A;
-};
+
 struct String128 {
     char String[128];
 }
+
+#endif

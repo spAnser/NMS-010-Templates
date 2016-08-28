@@ -1,3 +1,4 @@
+/*
 struct TkMaterialData;
 struct TkSceneNodeData;
 struct TkGeometryData;
@@ -132,3 +133,23 @@ struct GcSolarGenerationGlobals;
 struct GcSpaceshipGlobals;
 struct GcTerrainGlobals;
 struct GcWaterGlobals;
+*/
+
+
+#include "templates/GcFontTypesEnum.bt"   
+#include "templates/GcNGuiTextData.bt"     
+#include "templates/TkNGuiAlignment.bt"
+#include "templates/GcHUDManagerData.bt"   
+#include "templates/GcTextPreset.bt"       
+#include "templates/TkNGuiGraphicStyle.bt"
+#include "templates/GcNGuiElementData.bt" 
+#include "templates/GcTextPresetTable.bt" 
+#include "templates/TkNGuiGraphicStyleData.bt"
+#include "templates/GcNGuiGraphicData.bt"  
+#include "templates/TkCurveType.bt"        
+#include "templates/TkNGuiTextStyle.bt"
+#include "templates/GcNGuiLayerData.bt"   
+#include "templates/TkImGuiData.bt"        
+#include "templates/TkNGuiTextStyleData.bt"
+#include "templates/GcNGuiLayoutData.bt"   
+#include "templates/TkImGuiWindowData.bt"

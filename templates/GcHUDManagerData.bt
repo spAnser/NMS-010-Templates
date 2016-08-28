@@ -1,3 +1,13 @@
+
+
+
+#ifndef NMS_GcHUDManagerData
+#define NMS_GcHUDManagerData
+
+#include "templates/GcTextPreset.bt";
+#include "NMSEnums.bt";
+
+
 struct GcHUDManagerData {
     GcTextPreset TitleFont;
     GcTextPreset SubtitleFont;
@@ -33,3 +43,5 @@ struct GcHUDManagerData {
     TkCurveType Curve1;
     TkCurveType Curve2;
 };
+
+#endif

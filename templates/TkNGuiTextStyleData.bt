@@ -1,3 +1,15 @@
+
+
+#ifndef NMS_TkNGuiTextStyleData
+#define NMS_TkNGuiTextStyleData
+
+
+#include "NMSColor.bt"
+#include "NMSBool.bt"
+#include "templates/TkNGuiAlignment.bt"
+
+
+
 struct TkNGuiTextStyleData {
     colour Colour;
     float FontHeight;
@@ -17,3 +29,5 @@ struct TkNGuiTextStyleData {
     TkNGuiAlignment Align;
     FSkip(8);
 };
+
+#endif

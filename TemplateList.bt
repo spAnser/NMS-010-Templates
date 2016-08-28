@@ -1,0 +1,30 @@
+//------------------------------------------------
+//--- 010 Editor v7.0.2 Binary Template
+//
+//      File: 
+//   Authors: 
+//   Version: 
+//   Purpose: 
+//  Category: 
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+#ifndef NMS_TemplateList
+#define NMS_TemplateList
+
+#include "NMSTemplate.bt"
+struct NMSChildTemplate;
+struct TemplateList {
+    uint64 listStartOffset;
+    uint listSize;
+    local int i;
+    for (i=0;i<listSize;i++) {
+        FSeek( startof(listStartOffset) + listStartOffset + (i * 72));
+        NMSChildTemplate child;
+    }
+    FSeek( startof(listSize) + 4);
+};
+
+#endif

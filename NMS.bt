@@ -1,0 +1,37 @@
+//------------------------------------------------
+//--- 010 Editor v7.0.2 Binary Template
+//
+//      File:
+//   Authors:
+//   Version:
+//   Purpose:
+//  Category:
+// File Mask:
+//  ID Bytes:
+//   History:
+//------------------------------------------------
+
+//#include "NMSTemplate.bt"
+
+//struct List;
+//struct NMSChildTemplate;
+//#include "Enums.bt";
+//#include "MiscStruct.bt";
+//#include "TemplateIncludes.bt";
+//#include "TemplateList.bt"
+
+#include "TemplateDeclarations.bt"
+
+
+struct MBIN_HEADER {
+    uint     Magic;
+    uint     Unknown04;
+    uint     Unknown08;
+    uint     Unknown0C;
+    uint64   Unknown10;
+};
+
+MBIN_HEADER header;
+string TemplateName;
+local string name = TemplateName;
+NMSTemplateByName(name);

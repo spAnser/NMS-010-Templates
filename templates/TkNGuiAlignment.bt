@@ -1,4 +1,15 @@
+
+
+
+
+#ifndef NMS_TkNGuiAlignment
+#define NMS_TkNGuiAlignment
+
+#include "NMSEnums.bt"
+
 struct TkNGuiAlignment {
     vertical Vertical;
     horizontal Horizontal;
 };
+
+#endif
