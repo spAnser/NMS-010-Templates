@@ -1,5 +1,5 @@
 
-
+// Basic types, enums, list functions etc..
 #include "templates/NMSBool.bt" 
 #include "templates/NMSMath.bt"
 #include "templates/NMSColor.bt" 
@@ -7,6 +7,7 @@
 #include "templates/NMSTemplate.bt" 
 #include "templates/NMSChildTemplate.bt" 
 
+// Implemented templates
 #include "templates/GcFontTypesEnum.bt"
 #include "templates/GcHUDManagerData.bt"
 #include "templates/GcNGuiElementData.bt"

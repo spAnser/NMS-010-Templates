@@ -12,6 +12,13 @@
 //------------------------------------------------
 
 
+
+/* To add a new template definition :
+ *  1. Add your template in the templates/ directory
+ *  2. Add corresponding entries into templates/NMSTemplate.bt
+ *  3. Add your includes into NMSTemplateDeclarations.bt
+ */
+
 #include "TemplateDeclarations.bt"
 #include "templates/Mbin.bt"
 
