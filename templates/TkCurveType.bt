@@ -1,0 +1,3 @@
+struct TkCurveType {
+    curve Curve;
+};

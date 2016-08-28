@@ -1,0 +1,10 @@
+struct unknownXY {
+    float unk0;
+    float unk1;
+};
+struct color {
+    float R;
+    float G;
+    float B;
+    float A;
+};

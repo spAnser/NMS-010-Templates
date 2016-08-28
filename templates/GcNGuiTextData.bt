@@ -1,0 +1,9 @@
+struct GcNGuiTextData {
+    GcNGuiElementData ElementData;
+    TkNGuiTextStyle Style;
+    TkNGuiGraphicStyle GraphicStyle;
+    char Image[128];
+    char Text[128];
+    bool Special;
+    byte __pad__[3] <hidden=true>;
+};

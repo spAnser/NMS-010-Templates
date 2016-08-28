@@ -1,0 +1,59 @@
+//------------------------------------------------
+//--- 010 Editor v7.0.2 Binary Template
+//
+//      File: 
+//   Authors: 
+//   Version: 
+//   Purpose: 
+//  Category: 
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+#include "TemplateDefinitions.bt";
+struct ChildList;
+#include "Enums.bt";
+#include "MiscStruct.bt";
+#include "templates/GcNGuiElementData.bt";
+#include "templates/GcNGuiGraphicData.bt";
+#include "templates/GcNGuiLayerData.bt";
+#include "templates/GcNGuiLayoutData.bt";
+#include "templates/GcNGuiTextData.bt";
+#include "templates/TkCurveType.bt";
+#include "templates/TkNGuiAlignment.bt";
+#include "templates/TkNGuiGraphicStyle.bt";
+#include "templates/TkNGuiGraphicStyleData.bt";
+#include "templates/TkNGuiTextStyle.bt";
+#include "templates/TkNGuiTextStyleData.bt";
+
+struct ChildList {
+    uint64 offset;
+    char TemplateName[64];
+    FSeek( startof(offset) + offset);
+    switch (TemplateName)
+    {
+        case "cGcNGuiGraphicData":
+            GcNGuiGraphicData Data;
+            break;
+        case "cGcNGuiLayerData":
+            GcNGuiLayerData Data;
+            break;
+    }
+};
+
+struct MBIN {
+    struct HEADER {
+        uint    Magic;
+        uint     Unknown04;
+        uint     Unknown08;
+        uint     Unknown0C;
+        uint64     Unknown10;
+        char TemplateName[72];
+        switch (TemplateName)
+        {
+            case "cGcNGuiLayerData":
+                GcNGuiLayerData GuiLayerData;
+                break;
+        }
+    } header;
+} file;

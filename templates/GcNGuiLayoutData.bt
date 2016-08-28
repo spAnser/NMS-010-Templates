@@ -1,0 +1,20 @@
+struct GcNGuiLayoutData
+{
+    float PosX;
+    float PosY;
+    float Width;
+    bool WidthPercent;
+    byte __pad__[3] <hidden=true>;
+    float Height;
+    bool HeightPercentage;
+    bool ConstrainProportions;
+    byte __pad2__[2] <hidden=true>;
+    float ConstrainAspect;
+    bool Anchor;
+    bool AnchorPercent;
+    bool SameLine;
+    byte __pad3__[1] <hidden=true>;
+    TkNGuiAlignment Align;
+    bool SlowCursorOnHover;
+    byte __pad4__[3] <hidden=true>;
+};

@@ -1,0 +1,15 @@
+struct TkNGuiGraphicStyle {
+    TkNGuiGraphicStyleData Default;
+    TkNGuiGraphicStyleData Highlight;
+    TkNGuiGraphicStyleData Active;
+    float HighlightTime;
+    float HighlightScale;
+    animate Animate;
+    float AnimTime;
+    float AnimSplit;
+    TkCurveType Curve;
+    TkCurveType Curve;
+    unknownXY CustomMinStart;
+    unknownXY CustomMaxStart;
+    byte __pad__[4] <hidden=true>;
+};

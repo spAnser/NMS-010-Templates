@@ -1,0 +1,4 @@
+struct TkNGuiAlignment {
+    vertical Vertical;
+    horizontal Horizontal;
+};

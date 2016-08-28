@@ -1,0 +1,15 @@
+struct GcNGuiLayerData {
+    GcNGuiElementData ElementData;
+    TkNGuiGraphicStyle Style;
+    char Image[128];
+    uint64 listStartOffset;
+    uint listSize;
+    local int i;
+    for (i=0;i<listSize;i++) {
+        FSeek( startof(listStartOffset) + listStartOffset + (i * 72));
+        ChildList Children;
+    }
+    FSeek( startof(listSize) + 4);
+    uint unknown;
+    char DataFilename[128];
+};

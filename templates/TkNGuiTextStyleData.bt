@@ -1,0 +1,19 @@
+struct TkNGuiTextStyleData {
+    color Colour;
+    float FontHeight;
+    float FontSpacing;
+    bool isIndented;
+    bool hasDropShadow;
+    byte __pad__[2] <hidden=true>;
+    float DropShadowOffset;
+    bool hasOutline;
+    byte __pad2__[3] <hidden=true>;
+    float OutlineSize;
+    bool isParagraph;
+    bool AllowScroll;
+    bool forceUpperCase;
+    bool autoAdjustHeight;
+    uint fontIndex;
+    TkNGuiAlignment Align;
+    byte __pad3__[8] <hidden=true>;
+};

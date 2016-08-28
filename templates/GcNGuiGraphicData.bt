@@ -1,0 +1,5 @@
+struct GcNGuiGraphicData {
+    GcNGuiElementData ElementData;
+    TkNGuiGraphicStyle Style;
+    char Image[128];
+};

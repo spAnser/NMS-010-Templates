@@ -1,0 +1,5 @@
+struct TkNGuiTextStyle {
+    TkNGuiTextStyleData Default;
+    TkNGuiTextStyleData Highlight;
+    TkNGuiTextStyleData Active;
+};
