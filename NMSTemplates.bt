@@ -32,11 +32,38 @@ struct ChildList {
     FSeek( startof(offset) + offset);
     switch (TemplateName)
     {
+        case "cGcNGuiElementData":
+            GcNGuiGraphicData Data;
+            break;
         case "cGcNGuiGraphicData":
             GcNGuiGraphicData Data;
             break;
         case "cGcNGuiLayerData":
             GcNGuiLayerData Data;
+            break;
+        case "cGcNGuiLayoutData":
+            GcNGuiLayoutData Data;
+            break;
+        case "cGcNGuiTextData":
+            GcNGuiTextData Data;
+            break;
+        case "cTkCurveType":
+            TkCurveType Data;
+            break;
+        case "cTkNGuiAlignment":
+            TkNGuiAlignment Data;
+            break;
+        case "cTkNGuiGraphicStyle":
+            TkNGuiGraphicStyle Data;
+            break;
+        case "cTkNGuiGraphicStyleData":
+            TkNGuiGraphicStyleData Data;
+            break;
+        case "cTkNGuiTextStyle":
+            TkNGuiTextStyle Data;
+            break;
+        case "cTkNGuiTextStyleData":
+            TkNGuiTextStyleData Data;
             break;
     }
 };
@@ -51,8 +78,38 @@ struct MBIN {
         char TemplateName[72];
         switch (TemplateName)
         {
+            case "cGcNGuiElementData":
+                GcNGuiGraphicData Data;
+                break;
+            case "cGcNGuiGraphicData":
+                GcNGuiGraphicData Data;
+                break;
             case "cGcNGuiLayerData":
-                GcNGuiLayerData GuiLayerData;
+                GcNGuiLayerData Data;
+                break;
+            case "cGcNGuiLayoutData":
+                GcNGuiLayoutData Data;
+                break;
+            case "cGcNGuiTextData":
+                GcNGuiTextData Data;
+                break;
+            case "cTkCurveType":
+                TkCurveType Data;
+                break;
+            case "cTkNGuiAlignment":
+                TkNGuiAlignment Data;
+                break;
+            case "cTkNGuiGraphicStyle":
+                TkNGuiGraphicStyle Data;
+                break;
+            case "cTkNGuiGraphicStyleData":
+                TkNGuiGraphicStyleData Data;
+                break;
+            case "cTkNGuiTextStyle":
+                TkNGuiTextStyle Data;
+                break;
+            case "cTkNGuiTextStyleData":
+                TkNGuiTextStyleData Data;
                 break;
         }
     } header;
