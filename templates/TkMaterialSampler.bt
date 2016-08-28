@@ -1,0 +1,21 @@
+#ifndef NMS_TkMaterialSampler
+#define NMS_TkMaterialSampler
+
+#include "NMSEnums.bt"
+
+struct TkMaterialSampler {
+    char Name[0x20];
+    char Map[0x80];
+    bool IsCube;
+    bool UseCompression;
+    bool UseMipMaps;
+    bool IsSRGB;
+    FSkip(4);
+    char MaterialAlternativeId[0x10];
+    textureAddressMode TextureAddressMode;
+    textureFilterMode TextureFilterMode;
+    uint Anisotropy;
+    FSkip(4);
+};
+
+#endif

@@ -3,7 +3,7 @@
 #define NMS_ENUMS_BT
 
 enum animate {
-    None = 0,
+    Animate_None = 0,
     WipeRightToLeft = 1,
     SimpleWipe = 2,
     CustomWipe = 3,
@@ -15,7 +15,7 @@ enum shape {
 };
 
 enum gradient {
-    none,
+    Gradient_None,
     Vertical,
     Horizontal
 };
@@ -86,15 +86,15 @@ enum fonttype {
 };
 
 enum NoiseVoxelType {
-    Base = 0, 
-    Rock, 
-    Mountain, 
-    Sand, 
-    Cave, 
-    Substance_1, 
-    Substance_2, 
-    Substance_3, 
-    RandomRock, 
+    Base = 0,
+    Rock,
+    Mountain,
+    Sand,
+    Cave,
+    Substance_1,
+    Substance_2,
+    Substance_3,
+    RandomRock,
     RandomRockOrSubstance
 };
 
@@ -105,21 +105,21 @@ enum NoiseFeatureType {
 
 
 enum NoiseGridType {
-    Grid_Cube, 
-    Grid_Cone, 
-    Grid_Torus, 
-    Grid_Sphere, 
-    Grid_Cylinder, 
-    Grid_Capsule, 
-    Grid_Corridor, 
+    Grid_Cube,
+    Grid_Cone,
+    Grid_Torus,
+    Grid_Sphere,
+    Grid_Cylinder,
+    Grid_Capsule,
+    Grid_Corridor,
     Grid_Pipe,
-    Grid_Puck, 
-    Grid_SuperPrimitiveRandom, 
-    Grid_SuperFormula01, 
-    Grid_SuperFormula02, 
-    Grid_SuperFormula03, 
-    Grid_SuperFormula04, 
-    Grid_SuperFormula05, 
+    Grid_Puck,
+    Grid_SuperPrimitiveRandom,
+    Grid_SuperFormula01,
+    Grid_SuperFormula02,
+    Grid_SuperFormula03,
+    Grid_SuperFormula04,
+    Grid_SuperFormula05,
     Grid_SuperFormula06,
     Grid_SuperFormula07,
     Grid_SuperFormula08,
@@ -131,21 +131,108 @@ enum NoiseGridType {
 
 enum DebugNoiseType {
     Plane = 0,
-    Check, 
-    Sine, 
-    Uber 
+    Check,
+    Sine,
+    Uber
 };
 
 enum NoiseFlattening {
-    Flattening_None = 0, 
-    Flattening_Natural, 
-    Flattening_Artificial, 
+    Flattening_None = 0,
+    Flattening_Natural,
+    Flattening_Artificial,
     Flattening_AddResource
 };
 
 enum WaterPlacement {
-    WaterPlacement_None = 0, 
+    WaterPlacement_None = 0,
     WaterPlacement_Underwater
+};
+
+enum windowState {
+    Open,
+    Minimised,
+    Closed
+};
+
+enum materialFlag {
+    _F01_DIFFUSEMAP,
+    _F02_SKINNED,
+    _F03_NORMALMAP,
+    _F04_,
+    _F05_,
+    _F06_,
+    _F07_UNLIT,
+    _F08_,
+    _F09_TRANSPARENT,
+    _F10_NORECEIVESHADOW,
+    _F11_ALPHACUTOUT,
+    _F12_BATCHED_BILLBOARD,
+    _F13_UVANIMATION,
+    _F14_UVSCROLL,
+    _F15_WIND,
+    _F16_DIFFUSE2MAP,
+    _F17_MULTIPLYDIFFUSE2MAP,
+    _F18_UVTILES,
+    _F19_BILLBOARD,
+    _F20_PARALLAXMAP,
+    _F21_VERTEXCOLOUR,
+    _F22_TRANSPARENT_SCALAR,
+    _F23_CAMERA_RELATIVE,
+    _F24_AOMAP,
+    _F25_ROUGHNESS_MASK,
+    _F26_STRETCHY_PARTICLE,
+    _F27_VBTANGENT,
+    _F28_VBSKINNED,
+    _F29_VBCOLOUR,
+    _F30_REFRACTION_MAP,
+    _F31_DISPLACEMENT,
+    _F32_LEAF,
+    _F33_GRASS,
+    _F34_GLOW,
+    _F35_GLOW_MASK,
+    _F36_DOUBLESIDED,
+    _F37_RECOLOUR,
+    _F38_NO_DEFORM,
+    _F39_METALLIC_MASK,
+    _F40_SUBSURFACE_MASK,
+    _F41_DETAIL_DIFFUSE,
+    _F42_DETAIL_NORMAL,
+    _F43_NORMAL_TILING,
+    _F44_IMPOSTER,
+    _F45_SCANABLE,
+    _F46_BILLBOARD_AT,
+    _F47_WRITE_LOG_Z,
+    _F48_WARPED_DIFFUSE_LIGHTING,
+    _F49_DISABLE_AMBIENT,
+    _F50_DISABLE_POSTPROCESS,
+    _F51_DECAL_DIFFUSE,
+    _F52_DECAL_NORMAL,
+    _F53_,
+    _F54_,
+    _F55_,
+    _F56_,
+    _F57_,
+    _F58_,
+    _F59_,
+    _F60_,
+    _F61_,
+    _F62_,
+    _F63_,
+    _F64_
+};
+
+enum textureAddressMode {
+    Wrap,
+    Clamp,
+    ClampToBorder,
+    Mirror
+};
+
+enum textureFilterMode
+{
+    TextureAddressMode_None,
+    Bilinear,
+    Trilinear
 };
 
 #endif

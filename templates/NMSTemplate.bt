@@ -1,14 +1,14 @@
 //------------------------------------------------
 //--- 010 Editor v7.0.2 Binary Template
 //
-//      File: 
-//   Authors: 
-//   Version: 
-//   Purpose: 
-//  Category: 
-// File Mask: 
-//  ID Bytes: 
-//   History: 
+//      File:
+//   Authors:
+//   Version:
+//   Purpose:
+//  Category:
+// File Mask:
+//  ID Bytes:
+//   History:
 //------------------------------------------------
 
 
@@ -32,15 +32,17 @@ void NMSTemplateByName (string type) {
         case "cTkCurveType":                struct TkCurveType Data; break;
         case "cTkImGuiData":                struct TkImGuiData Data; break;
         case "cTkImGuiWindowData":          struct TkImGuiWindowData Data; break;
+        case "cTkMaterialData":             struct TkMaterialData Data; break;
         case "cTkNGuiAlignment":            struct TkNGuiAlignment Data; break;
+        case "cTkNGuiEditorLayout":         struct TkNGuiEditorLayout Data; break;
         case "cTkNGuiGraphicStyle":         struct TkNGuiGraphicStyle Data; break;
         case "cTkNGuiGraphicStyleData":     struct TkNGuiGraphicStyleData Data; break;
         case "cTkNGuiTextStyle":            struct TkNGuiTextStyle Data; break;
         case "cTkNGuiTextStyleData":        struct TkNGuiTextStyleData Data; break;
         case "cTkVoxelGeneratorSettingsArray": struct TkVoxelGeneratorSettingsArray Data; break;
-        
 
-        default: 
+
+        default:
         {
             Printf("Warning: Template %s not implemented\n", type);
             Warning("Template %s not implemented\n", type);

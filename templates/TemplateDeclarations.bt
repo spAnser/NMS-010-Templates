@@ -4,12 +4,12 @@
 #define NMS_TemplateDeclarations
 
 // Basic types, enums, list functions etc..
-#include "NMSBool.bt" 
+#include "NMSBool.bt"
 #include "NMSMath.bt"
-#include "NMSColor.bt" 
-#include "NMSEnums.bt" 
-#include "NMSTemplate.bt" 
-#include "NMSChildTemplate.bt" 
+#include "NMSColor.bt"
+#include "NMSEnums.bt"
+#include "NMSTemplate.bt"
+#include "NMSChildTemplate.bt"
 
 // Implemented templates
 #include "GcFontTypesEnum.bt"
@@ -24,7 +24,9 @@
 #include "TkCurveType.bt"
 #include "TkImGuiData.bt"
 #include "TkImGuiWindowData.bt"
+#include "TkMaterialData.bt"
 #include "TkNGuiAlignment.bt"
+#include "TkNGuiEditorLayout.bt"
 #include "TkNGuiGraphicStyle.bt"
 #include "TkNGuiGraphicStyleData.bt"
 #include "TkNGuiTextStyle.bt"
@@ -187,5 +189,3 @@ struct GcSpaceshipGlobals;
 struct GcTerrainGlobals;
 struct GcWaterGlobals;
 */
-
-

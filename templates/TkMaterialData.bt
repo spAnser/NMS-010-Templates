@@ -1,0 +1,35 @@
+#ifndef NMS_TkMaterialData
+#define NMS_TkMaterialData
+
+#include "NMSList.bt"
+#include "TkMaterialFlags.bt"
+#include "TkMaterialUniform.bt"
+#include "TkMaterialSampler.bt"
+
+struct TkMaterialData {
+    char Name[128];
+    char Class[32];
+    uint TransparencyLayerID;
+    bool CastShadow;
+    bool DisableZTest;
+    char Link[128];
+    char Shader[128];
+    FSkip(2);
+    struct {
+        BEGIN_UNIFORM_LIST;
+        TkMaterialFlags Flags[LIST_SIZE];
+        END_UNIFORM_LIST;
+    } TkMaterialFlagsList;
+    struct {
+        BEGIN_UNIFORM_LIST;
+        TkMaterialUniform Uniforms[LIST_SIZE];
+        END_UNIFORM_LIST;
+    } TkMaterialUniformList;
+    struct {
+        BEGIN_UNIFORM_LIST;
+        TkMaterialSampler Samplers[LIST_SIZE];
+        END_UNIFORM_LIST;
+    } TkMaterialSamplerList;
+};
+
+#endif

@@ -16,6 +16,10 @@ struct Vector4f {
     float t;
 };
 
+struct String32 {
+    char String[32];
+};
+
 struct String128 {
     char String[128];
 };

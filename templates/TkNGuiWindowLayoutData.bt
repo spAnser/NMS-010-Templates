@@ -1,0 +1,19 @@
+#ifndef NMS_TkNGuiWindowLayoutData
+#define NMS_TkNGuiWindowLayoutData
+
+#include "NMSMath.bt"
+#include "NMSEnums.bt"
+
+struct TkNGuiWindowLayoutData {
+    char Name[0x80];
+
+    float PositionX;
+    float PositionY;
+    float SizeX;
+    float SizeY;
+    float Separator;
+    windowState WindowState;
+    String32 Tabs[0x8];
+};
+
+#endif

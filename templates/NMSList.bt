@@ -1,6 +1,3 @@
-
-
-
 #ifndef NMS_List
 #define NMS_List
 
@@ -9,8 +6,6 @@ struct GenericListHeader {
     uint32 NumElements;
     uint32 magic;
 };
-
-
 
 #define BEGIN_UNIFORM_LIST \
 GenericListHeader listHeader  <hidden=true>; \

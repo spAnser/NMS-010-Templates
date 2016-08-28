@@ -1,0 +1,15 @@
+#ifndef NMS_TkMaterialUniform
+#define NMS_TkMaterialUniform
+
+#include "NMSList.bt"
+#include "NMSMath.bt"
+
+struct TkMaterialUniform {
+    char Name[0x20];
+    Vector4f Values;
+    BEGIN_UNIFORM_LIST;
+    Vector4f ExtendedValues[LIST_SIZE];
+    END_UNIFORM_LIST;
+};
+
+#endif

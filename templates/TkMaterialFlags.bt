@@ -1,0 +1,10 @@
+#ifndef NMS_TkMaterialFlags
+#define NMS_TkMaterialFlags
+
+#include "NMSEnums.bt"
+
+struct TkMaterialFlags {
+    materialFlag MaterialFlag;
+};
+
+#endif
