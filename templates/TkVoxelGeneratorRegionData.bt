@@ -1,0 +1,32 @@
+
+#ifndef NMS_TkVoxelGeneratorRegionData
+#define NMS_TkVoxelGeneratorRegionData
+
+
+#include "TkNoiseFlattenPointList.bt"
+#include "NMSList.bt" // for FloatList
+#include "NMSEnums.bt"
+
+struct TkVoxelGeneratorRegionData
+{
+    float PlanetRadius;
+    float VoronoiPointDivisions;
+    int VoronoiSectorSeed;
+    int VoronoiPointSeed;
+    
+
+    TkNoiseFlattenPointList NoiseFlattenPointList;
+    FloatList FlattenTypeChances;
+
+
+    int WaypointIndex;
+    int LandingPadIndex;
+    float AddShelterChance;
+    int ShelterIndices[3];
+    int NumShelters;
+
+    byte Padding4C[4];
+
+};
+
+#endif

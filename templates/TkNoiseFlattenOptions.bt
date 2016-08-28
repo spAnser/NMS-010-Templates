@@ -1,0 +1,14 @@
+
+#ifndef NMS_TkNoiseFlattenOptions
+#define NMS_TkNoiseFlattenOptions
+
+#include "NMSEnums.bt"
+
+struct TkNoiseFlattenOptions
+{
+    enum NoiseFlattening Flattening;
+    enum WaterPlacement Placement;
+};
+
+
+ #endif

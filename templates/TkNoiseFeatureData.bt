@@ -1,0 +1,30 @@
+
+#ifndef NMS_TkNoiseFeatureData
+#define NMS_TkNoiseFeatureData
+
+
+#include "NMSEnums.bt"
+
+struct TkNoiseFeatureData
+{
+    uint32 Active;
+    int MaximumLOD;
+    byte Subtract;
+    byte Trench;
+    uint16 _pad;
+    enum NoiseVoxelType VoxelType;
+    enum NoiseFeatureType FeatureType; 
+    float Width;
+    float Height;
+    int Octaves;
+    float RegionSize;
+    float Ratio;
+    float HeightVarianceAmplitude;
+    float HeightVarianceFrequency;
+    float HeightOffset;
+    uint32 OffsetType;
+    float SmoothRadius;
+    int SeedOffset;
+};
+
+ #endif

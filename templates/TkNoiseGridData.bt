@@ -1,0 +1,51 @@
+
+#ifndef NMS_TkNoiseGridData
+#define NMS_TkNoiseGridData
+
+
+#include "TkNoiseUberLayerData.bt"
+#include "TkNoiseSuperFormulaData.bt"
+
+#include "NMSEnums.bt"
+
+struct TkNoiseGridData
+{
+ 	uint32 Active;
+    int MaximumLOD;
+    byte Subtract;
+    byte SwapZY;
+    byte Hemisphere;
+    byte _pad;
+    enum NoiseVoxelType VoxelType;
+    enum NoiseGridType GridType;
+
+    char Filename[0x80];
+    float MinWidth;
+    float MaxWidth;
+    float MinHeight;
+    float MaxHeight;
+    float MinHeightOffset;
+    float MaxHeightOffset;
+    float HeightOffset;
+
+    uint32 OffsetType;
+    float RegionRatio;
+    float RegionScale;
+    TkNoiseUberLayerData TurbulenceNoiseLayer;
+    float Yaw;
+    float Pitch;
+    float Roll;
+    float VaryYaw;
+    float VaryPitch;
+    float VaryRoll;
+    float SmoothRadius;
+    int SeedOffset;
+    float RandomPrimitive;
+    TkNoiseSuperFormulaData SuperFormula1; 
+    TkNoiseSuperFormulaData SuperFormula2; 
+    TkNoiseSuperFormulaData SuperFormula3; 
+
+    byte Padding178[0xC]; // ???
+};
+
+ #endif

@@ -1,0 +1,18 @@
+
+#ifndef NMS_TkNoiseFlattenPointList
+#define NMS_TkNoiseFlattenPointList
+
+
+#include "TkNoiseFlattenPoint.bt"
+#include "NMSList.bt"
+
+
+struct TkNoiseFlattenPointList
+{
+    BEGIN_UNIFORM_LIST;
+    TkNoiseFlattenPoint Items[LIST_SIZE];
+    END_UNIFORM_LIST;
+};
+
+
+ #endif

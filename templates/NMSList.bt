@@ -1,0 +1,34 @@
+
+
+
+#ifndef NMS_List
+#define NMS_List
+
+struct GenericListHeader {
+    uint64 DataOffset;
+    uint32 NumElements;
+    uint32 magic;
+};
+
+
+
+#define BEGIN_UNIFORM_LIST \
+GenericListHeader listHeader  <hidden=true>; \
+local int LIST_SIZE = listHeader.NumElements; \
+FSeek( startof(listHeader) + listHeader.DataOffset);
+
+#define END_UNIFORM_LIST \
+FSeek( startof(listHeader) + sizeof(listHeader));
+
+
+// Common primitive types
+struct FloatList
+{
+    BEGIN_UNIFORM_LIST;
+    float Items[LIST_SIZE];
+    END_UNIFORM_LIST;
+};
+
+
+
+#endif

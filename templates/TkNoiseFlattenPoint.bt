@@ -1,0 +1,25 @@
+
+#ifndef NMS_TkNoiseFlattenPoint
+#define NMS_TkNoiseFlattenPoint
+
+
+#include "NMSEnums.bt"
+
+struct TkNoiseFlattenPoint
+{
+    float Density;
+    float FlattenRadius;
+    float TurbulenceFrequency;
+    float TurbulenceAmplitude;
+    int TurbulenceOctaves;
+    enum TkNoiseFlattenOptions FlattenType;
+    int Classification;
+    int Placement;
+    byte AddWaypoint;
+    byte AddShelter;
+    byte AddLandingPad;
+    byte Padding27[1];
+};
+
+
+ #endif

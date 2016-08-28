@@ -1,0 +1,30 @@
+
+#ifndef NMS_TkNoiseUberLayerData
+#define NMS_TkNoiseUberLayerData
+
+
+#include "TkNoiseUberData.bt"
+#include "NMSEnums.bt"
+
+struct TkNoiseUberLayerData
+{
+ 	struct TkNoiseUberData NoiseData;
+    uint32 Active;
+    int MaximumLOD;
+    uint32 Subtract;
+    enum NoiseVoxelType VoxelType;
+    float Height;
+    float Width;
+    float RegionRatio;
+    float RegionScale;
+    float SmoothRadius;
+    float HeightOffset;
+    uint32 OffsetType;
+    int WaterFade;
+    float PlateauStratas;
+    uint32 PlateauSharpness;
+    float PlateauRegionSize;
+    float SeedOffset;
+};
+
+ #endif

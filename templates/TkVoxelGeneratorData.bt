@@ -1,0 +1,35 @@
+
+#ifndef NMS_TkVoxelGeneratorData
+#define NMS_TkVoxelGeneratorData
+
+#include "TkNoiseUberLayerData.bt"
+#include "TkNoiseGridData.bt"
+#include "TkNoiseFeatureData.bt"
+#include "TkNoiseCaveData.bt"
+#include "TkVoxelGeneratorRegionData.bt"
+#include "NMSEnums.bt"
+
+struct TkVoxelGeneratorData {
+    struct GcSeed BaseSeed;
+    float SeaRatio;
+    float NoSeaBaseLevel;
+    enum NoiseVoxelType NoiseVoxelType1;
+    enum NoiseVoxelType NoiseVoxelType2;
+    
+    TkNoiseUberLayerData NoiseLayers[7];
+    TkNoiseGridData GridLayers[9];
+    TkNoiseFeatureData Features[7];
+    
+    TkNoiseCaveData CavesUnderground;
+    float MinimumCaveDepth;
+    float CaveRoofSmoothingDist;
+    float MaximumSeaLevelCaveDepth;
+    float BuildingTextureRadius;
+    float BuildingSmoothingRadius;
+    float BuildingSmoothingHeight;
+    float WaterFadeInDistance;
+    float WaterFadeInDistance2;
+    TkVoxelGeneratorRegionData Regions;
+};
+
+#endif

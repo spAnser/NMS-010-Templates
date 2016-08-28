@@ -1,0 +1,13 @@
+
+#ifndef NMS_TkVoxelGeneratorSettingsElement
+#define NMS_TkVoxelGeneratorSettingsElement
+
+#include "TkVoxelGeneratorData.bt"
+#include "NMSEnums.bt"
+
+struct TkVoxelGeneratorSettingsElement {
+    TkVoxelGeneratorData Min;
+    TkVoxelGeneratorData Max;
+};
+
+#endif
