@@ -2,7 +2,7 @@
 #ifndef NMS_GcNGuiElementData
 #define NMS_GcNGuiElementData
 
-#include "templates/GcNGuiLayoutData.bt"
+#include "GcNGuiLayoutData.bt"
 
 
 struct GcNGuiElementData {
@@ -10,7 +10,7 @@ struct GcNGuiElementData {
     char PresetId[16];
     char CreationTime[8];
     uint32 isHidden;
-    struct GcNGuiLayoutData Layout;
+    GcNGuiLayoutData Layout;
     FSkip(4);
 };
 

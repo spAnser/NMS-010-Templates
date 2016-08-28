@@ -1,32 +1,36 @@
 
+
+#ifndef NSM_TemplateDeclarations
+#define NMS_TemplateDeclarations
+
 // Basic types, enums, list functions etc..
-#include "templates/NMSBool.bt" 
-#include "templates/NMSMath.bt"
-#include "templates/NMSColor.bt" 
-#include "templates/NMSEnums.bt" 
-#include "templates/NMSTemplate.bt" 
-#include "templates/NMSChildTemplate.bt" 
+#include "NMSBool.bt" 
+#include "NMSMath.bt"
+#include "NMSColor.bt" 
+#include "NMSEnums.bt" 
+#include "NMSTemplate.bt" 
+#include "NMSChildTemplate.bt" 
 
 // Implemented templates
-#include "templates/GcFontTypesEnum.bt"
-#include "templates/GcHUDManagerData.bt"
-#include "templates/GcNGuiElementData.bt"
-#include "templates/GcNGuiGraphicData.bt"
-#include "templates/GcNGuiLayerData.bt"
-#include "templates/GcNGuiLayoutData.bt"
-#include "templates/GcNGuiTextData.bt"
-#include "templates/GcTextPreset.bt"
-#include "templates/GcTextPresetTable.bt"
-#include "templates/TkCurveType.bt"
-#include "templates/TkImGuiData.bt"
-#include "templates/TkImGuiWindowData.bt"
-#include "templates/TkNGuiAlignment.bt"
-#include "templates/TkNGuiGraphicStyle.bt"
-#include "templates/TkNGuiGraphicStyleData.bt"
-#include "templates/TkNGuiTextStyle.bt"
-#include "templates/TkNGuiTextStyleData.bt"
+#include "GcFontTypesEnum.bt"
+#include "GcHUDManagerData.bt"
+#include "GcNGuiElementData.bt"
+#include "GcNGuiGraphicData.bt"
+#include "GcNGuiLayerData.bt"
+#include "GcNGuiLayoutData.bt"
+#include "GcNGuiTextData.bt"
+#include "GcTextPreset.bt"
+#include "GcTextPresetTable.bt"
+#include "TkCurveType.bt"
+#include "TkImGuiData.bt"
+#include "TkImGuiWindowData.bt"
+#include "TkNGuiAlignment.bt"
+#include "TkNGuiGraphicStyle.bt"
+#include "TkNGuiGraphicStyleData.bt"
+#include "TkNGuiTextStyle.bt"
+#include "TkNGuiTextStyleData.bt"
 
-
+#endif
 
 
 /*

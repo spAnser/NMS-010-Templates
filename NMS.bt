@@ -19,7 +19,7 @@
  *  3. Add your includes into NMSTemplateDeclarations.bt
  */
 
-#include "TemplateDeclarations.bt"
+#include "templates/TemplateDeclarations.bt"
 #include "templates/Mbin.bt"
 
 MBIN_Header header;

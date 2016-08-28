@@ -2,6 +2,8 @@
 #ifndef NMS_TkCurveType
 #define NMS_TkCurveType
 
+#include "NMSEnums.bt"
+
 struct TkCurveType {
     curve Curve;
 };

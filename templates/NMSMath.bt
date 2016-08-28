@@ -3,6 +3,7 @@
 #ifndef NMS_MATH_BT
 #define NMS_MATH_BT
 
+
 struct Vector2f {
     float x;
     float y;

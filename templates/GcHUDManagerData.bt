@@ -2,8 +2,12 @@
 #ifndef NMS_GcHUDManagerData
 #define NMS_GcHUDManagerData
 
-#include "templates/GcTextPreset.bt"
-#include "templates/TkCurveType.bt"
+
+#include "NMSEnums.bt"
+#include "NMSBool.bt"
+
+#include "GcTextPreset.bt"
+#include "TkCurveType.bt"
 
 struct GcHUDManagerData {
     GcTextPreset TitleFont;

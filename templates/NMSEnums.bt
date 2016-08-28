@@ -2,7 +2,6 @@
 #ifndef NMS_ENUMS_BT
 #define NMS_ENUMS_BT
 
-
 enum animate {
     None = 0,
     WipeRightToLeft = 1,

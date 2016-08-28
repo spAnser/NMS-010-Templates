@@ -2,6 +2,8 @@
 #ifndef NMS_GcFontTypesEnum
 #define NMS_GcFontTypesEnum
 
+#include "NMSEnums.bt"
+
 struct GcFontTypesEnum {
     fonttype Font;
 };

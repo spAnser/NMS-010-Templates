@@ -2,6 +2,7 @@
 #ifndef NMS_TkImGuiWindowData
 #define NMS_TkImGuiWindowData
 
+#include "NMSBool.bt"
 
 struct TkImGuiWindowData {
     char Type[128];

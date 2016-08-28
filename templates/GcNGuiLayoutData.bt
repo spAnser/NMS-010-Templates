@@ -1,12 +1,11 @@
 
-#ifndef NMS_GcFontTypesEnum
-#define NMS_GcFontTypesEnum
+#ifndef NMS_GcNGuiLayoutData
+#define NMS_GcNGuiLayoutData
 
-#include "templates/TkNGuiAlignment.bt"
+#include "TkNGuiAlignment.bt"
 #include "NMSBool.bt"
 
-
-struct GcFontTypesEnum
+struct GcNGuiLayoutData
 {
     float PosX;
     float PosY;

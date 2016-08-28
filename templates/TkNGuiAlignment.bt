@@ -2,6 +2,7 @@
 #ifndef NMS_TkNGuiAlignment
 #define NMS_TkNGuiAlignment
 
+#include "NMSENums.bt"
 
 struct TkNGuiAlignment {
     vertical Vertical;

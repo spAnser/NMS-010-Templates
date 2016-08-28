@@ -18,7 +18,7 @@
 #include "TemplateDeclarations.bt"
 
 void NMSTemplateByName (string type) {
-    Printf(type);
+
     switch(type) {
 
         case "": /* triggered by forward-declaring structs */ break;

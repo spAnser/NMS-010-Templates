@@ -3,8 +3,8 @@
 #ifndef NMS_TkNGuiTextStyleData
 #define NMS_TkNGuiTextStyleData
 
-#include "templates/TkNGuiAlignment.bt"
-
+#include "TkNGuiAlignment.bt"
+#include "NMSColor.bt"
 
 struct TkNGuiTextStyleData {
     colour Colour;

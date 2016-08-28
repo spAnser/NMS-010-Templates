@@ -2,7 +2,7 @@
 #ifndef NMS_TkNGuiTextStyle
 #define NMS_TkNGuiTextStyle
 
-#include "templates/TkNGuiTextStyleData.bt"
+#include "TkNGuiTextStyleData.bt"
 
 
 struct TkNGuiTextStyle {
