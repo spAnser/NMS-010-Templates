@@ -104,6 +104,8 @@ struct GcTextPreset;
 struct GcTextPresetTable;
 struct GcFontTypesEnum;
 struct TkCurveType;
+struct TkImGuiWindow;
+struct TkImGuiWindowData;
 
 // Globals
 

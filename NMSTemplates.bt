@@ -59,6 +59,12 @@ struct NMSTemplate {
         case "cTkCurveType":
             TkCurveType Data;
             break;
+        case "cTkImGuiData":
+            TkImGuiData Data;
+            break;
+        case "cTkImGuiWindowData":
+            TkImGuiWindowData Data;
+            break;
         case "cTkNGuiAlignment":
             TkNGuiAlignment Data;
             break;
@@ -107,6 +113,12 @@ struct MBIN {
                 break;
             case "cTkCurveType":
                 TkCurveType Data;
+                break;
+            case "cTkImGuiData":
+                TkImGuiData Data;
+                break;
+            case "cTkImGuiWindowData":
+                TkImGuiWindowData Data;
                 break;
             case "cTkNGuiAlignment":
                 TkNGuiAlignment Data;

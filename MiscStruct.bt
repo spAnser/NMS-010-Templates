@@ -8,3 +8,6 @@ struct colour {
     float B;
     float A;
 };
+struct String128 {
+    char String[128];
+}

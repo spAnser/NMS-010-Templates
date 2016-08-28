@@ -8,6 +8,8 @@
 #include "templates/GcTextPreset.bt";
 #include "templates/GcTextPresetTable.bt";
 #include "templates/TkCurveType.bt";
+#include "templates/TkImGuiData.bt";
+#include "templates/TkImGuiWindowData.bt";
 #include "templates/TkNGuiAlignment.bt";
 #include "templates/TkNGuiGraphicStyle.bt";
 #include "templates/TkNGuiGraphicStyleData.bt";

@@ -1,0 +1,15 @@
+struct TkImGuiData {
+    TkImGuiWindowData MainWindow;
+    FSkip(3);
+    bool Maximised;
+    FSkip(3);
+    uint DimensionX;
+    uint DimensionY;
+    String128 RecentToolbox[10];
+    local int i;
+    for (i=0;i<128;i++) {
+        TkImGuiWindowData WindowTable;
+        FSkip(3); // Appear to be skipping over 00 01 00...Important?
+    }
+    uint WindowCount;
+};

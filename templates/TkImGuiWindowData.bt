@@ -1,0 +1,16 @@
+struct TkImGuiWindowData {
+    char Type[128];
+    uint WindowX;
+    uint WindowY;
+    uint WindowW;
+    uint WindowH;
+    uint WindowMinW;
+    uint WindowMinH;
+    bool WindowResize;
+    uint WindowScroll;
+    uint WindowTab;
+    bool WindowOpen;
+    bool WindowMinimised;
+    bool WindowUsed;
+    FSkip(1);
+}
