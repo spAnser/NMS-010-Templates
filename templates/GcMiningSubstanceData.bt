@@ -1,0 +1,20 @@
+
+#ifndef NMS_GcMiningSubstanceData
+#define NMS_GcMiningSubstanceData
+
+#include "NMSEnums.bt"
+
+
+struct GcRealitySubstanceCategory {
+    enum SubstanceCategories SubstanceCategory;
+};
+
+struct GcMiningSubstanceData
+{
+    GcRealitySubstanceCategory SubstanceCategory;
+    bool UseRarity;
+    FSkip(3);
+    uint32 Rarity;
+};
+
+#endif

@@ -1,0 +1,11 @@
+#ifndef NMS_TkPaletteTexture
+#define NMS_TkPaletteTexture
+
+#include "NMSEnums.bt"
+
+struct TkPaletteTexture {
+    enum Palettes Palette;
+    enum ColourAlt Colour;
+};
+
+#endif

@@ -1,0 +1,18 @@
+
+#ifndef NMS_GcTerrainControls
+#define NMS_GcTerrainControls
+
+
+struct GcTerrainControls
+{
+    float NoiseLayers[7];
+    float GridLayers[9];
+    float Features[7];
+    float Caves[1];
+    float WaterActiveFrequency;
+    float HighWaterActiveFrequency;
+    float RockTileFrequency;
+    float SubstanceTileFrequency;
+};
+
+#endif
