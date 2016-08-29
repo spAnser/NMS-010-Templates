@@ -26,6 +26,7 @@ void NMSTemplateByName (string type) {
         case "cTkNGuiTextStyle":            struct TkNGuiTextStyle Data; break;
         case "cTkNGuiTextStyleData":        struct TkNGuiTextStyleData Data; break;
         case "cTkVoxelGeneratorSettingsArray": struct TkVoxelGeneratorSettingsArray Data; break;
+        case "cGcBiomeData":                 struct GcBiomeData Data; break;
 
 
         default:

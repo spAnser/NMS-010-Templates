@@ -1,0 +1,46 @@
+#ifndef NMS_GcBiomeData
+#define NMS_GcBiomeData
+
+#include "NMSEnums.bt"
+#include "NMSMath.bt"
+#include "NMSBool.bt"
+
+#include "templates/GcTileTypeOptions.bt"
+#include "templates/GcPlanetWaterData.bt"
+#include "templates/GcExternalObjectListOptions.bt"
+#include "templates/GcTerrainControls.bt"
+#include "templates/GcMiningSubstanceData.bt"
+
+
+struct GcBiomeData
+{
+    GcMiningSubstanceData MiningSubstance1;
+    GcMiningSubstanceData MiningSubstance2;
+    GcMiningSubstanceData MiningSubstance3;
+    GcMiningSubstanceData MiningSubstance4 <comment="Seems unused">;
+
+    GcPlanetWaterData Water;
+    String128 DiffuseMap;
+    String128 NormalMap;
+    GcTileTypeOptions TileTypeOptions[10] <optimize=false>;
+
+    struct {
+        BEGIN_UNIFORM_LIST;
+        GcExternalObjectListOptions Options[LIST_SIZE] <optimize=false>;
+        END_UNIFORM_LIST;
+    } ObjectListOptions;
+    
+    bool IsClear;
+    bool IsDust;
+    bool ISHumid;
+    bool IsSnow;
+    bool IsToxic;
+    bool IsScorched;
+    bool IsRadioactive;
+    FSkip(1);
+    struct GcTerrainControls Terrain;
+};
+
+
+
+#endif

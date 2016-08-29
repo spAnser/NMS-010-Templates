@@ -1,0 +1,17 @@
+
+#ifndef NMS_GcExternalObjectListOptions
+#define NMS_GcExternalObjectListOptions
+
+#include "NMSEnums.bt"
+
+
+struct GcExternalObjectListOptions {
+    char Name[16];
+    float Probability;
+    TerrainTileType TileType;
+    String128 Options[4];
+    bool AllowLimiting;
+    FSkip(7);
+};
+
+#endif

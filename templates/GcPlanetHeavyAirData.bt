@@ -1,0 +1,15 @@
+
+#ifndef NMS_GcPlanetHeavyAirData
+#define NMS_GcPlanetHeavyAirData
+
+#include "NMSEnums.bt"
+#include "NMSMath.bt"
+
+
+struct GcPlanetHeavyAirData
+{
+    String128 FileName;
+    ColorPair4f Colours[5];
+};
+
+#endif

@@ -234,4 +234,77 @@ enum textureFilterMode
     Trilinear
 };
 
+enum SubstanceCategories {
+  Commodity    = 0,
+  Technology   = 1,
+  Fuel         = 2,
+  Tradable     = 3,
+  Special      = 4,
+};
+
+
+enum Palettes {
+    Pal_Grass = 0,
+    Pal_Plant,
+    Pal_Leaf,
+    Pal_Wood,
+    Pal_Rock,
+    Pal_Stone,
+    Pal_Crystal,
+    Pal_Sand,
+    Pal_Dirt,
+    Pal_Metal,
+    Pal_Paint,
+    Pal_Plastic,
+    Pal_Fur,
+    Pal_Scale,
+    Pal_Feather,
+    Pal_Water,
+    Pal_Cloud,
+    Pal_Sky,
+    Pal_Space,
+    Pal_Underbelly,
+    Pal_Undercoat,
+    Pal_Snow,
+    Pal_SkyHorizon,
+    Pal_SkyFog,
+    Pal_SkyHeightFog,
+    Pal_SkySunset,
+    Pal_SkyNight,
+    Pal_WaterNear,
+    Pal_SpaceCloud,
+    Pal_SpaceBottom,
+    Pal_SpaceSolar,
+    Pal_SpaceLight,
+    Pal_Warrior,
+    Pal_Scientific,
+    Pal_Trader,
+    Pal_WarriorAlt,
+    Pal_ScientificAlt,
+    Pal_TraderAlt
+};
+
+enum ColourAlt {
+    Col_Primary,
+    Col_Alternative1,
+    Col_Alternative2,
+    Col_Alternative3,
+    Col_Alternative4,
+    Col_Unique,
+    Col_MatchGround,
+    Col_None
+};
+
+enum TerrainTileType {
+    Tile_Air,
+    Tile_Base,
+    Tile_Rock,
+    Tile_Mountain,
+    Tile_Underwater,
+    Tile_Cave,
+    Tile_Dirt,
+    Tile_Liquid,
+    Tile_Substance
+};
+
 #endif

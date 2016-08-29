@@ -1,0 +1,43 @@
+
+#ifndef NMS_GcPlanetWaterData
+#define NMS_GcPlanetWaterData
+
+#include "templates/GcPlanetHeavyAirData.bt"
+
+#include "NMSEnums.bt"
+#include "NMSMath.bt"
+
+
+struct GcPlanetWaterData
+{
+    Color4f WaterColourNear;
+    Color4f WaterColourFar;
+    float WaterStrength;
+    float WaterColourStrength;
+    float WaterMultiplyStrength;
+    float WaterMultiplyMax;
+    float WaterRoughness;
+    float FresnelPower;
+    float FresnelMin;
+    float FresnelMax;
+    float Wave1Scale;
+    float Wave1Height;
+    float Wave1Speed;
+    float Wave2Scale;
+    float Wave2Height;
+    float Wave2Speed;
+    float NormalMap1Scale;
+    float NormalMap1Speed;
+    float NormalMap2Scale;
+    float NormalMap2Speed;
+    float FoamFadeHeight;
+    float Foam1Scale;
+    float Foam1Speed;
+    float Foam2Scale;
+    float Foam2Speed;
+    FSkip(4);
+    Color4f FoamColour;
+    GcPlanetHeavyAirData PlanetHeavyAirData;
+};
+
+#endif

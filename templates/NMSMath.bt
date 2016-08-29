@@ -13,6 +13,18 @@ struct Vector4f {
     float t;
 };
 
+struct Color4f {
+    float r;
+    float g;
+    float b;
+    float a;
+};
+
+struct ColorPair4f {
+    Color4f Colour1;
+    Color4f Colour2;
+};
+
 struct String32 {
     char String[32];
 };

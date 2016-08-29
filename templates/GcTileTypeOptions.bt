@@ -1,0 +1,16 @@
+
+#ifndef NMS_GcTileTypeOptions
+#define NMS_GcTileTypeOptions
+
+#include "NMSEnums.bt"
+#include "NMSList.bt"
+#include "templates/TkPaletteTexture.bt"
+
+
+struct GcTileTypeOptions {
+    BEGIN_UNIFORM_LIST;
+    TkPaletteTexture Options[LIST_SIZE];
+    END_UNIFORM_LIST;
+};
+
+#endif
