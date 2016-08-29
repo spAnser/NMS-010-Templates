@@ -46,7 +46,7 @@
 #include "TkVoxelGeneratorSettingsArray.bt"
 #include "GcExternalObjectListOptions.bt"
 #include "GcMiningSubstanceData.bt"
-#include "GcPlanetHeavyAir.bt"
+#include "GcPlanetHeavyAirData.bt"
 #include "GcPlanetWaterData.bt"
 #include "GcTerrainControls.bt"
 #include "GcTileTypeOptions.bt"
