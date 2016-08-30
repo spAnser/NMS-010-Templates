@@ -1,0 +1,276 @@
+#ifndef NMS_GcGraphicsGlobals
+#define NMS_GcGraphicsGlobals
+
+#include "TkImGuiSettings.bt"
+
+#include "NMSBool.bt"
+
+struct GcGraphicsGlobals {
+    float Unknown0;
+    float Unknown4;
+    float Unknown8;
+    float UnknownC;
+
+    float Unknown10;
+    float Unknown14;
+    float Unknown18;
+    float Unknown1C;
+
+    float Unknown20;
+    float Unknown24;
+    float Unknown28;
+    float Unknown2C;
+
+    float Unknown30;
+    float Unknown34;
+    float Unknown38;
+    float Unknown3C;
+
+    bool Unknown40;
+    bool Unknown41;
+    FSkip(2);
+    float Unknown44;
+    float Unknown48;
+    float Unknown4C;
+
+    TkImGuiSettings ImGuiSettings;
+
+    float Unknown1E0;
+    float Unknown1E4;
+    float Unknown1E8;
+    float Unknown1EC;
+
+    float Unknown1F0;
+    float Unknown1F4;
+    float Unknown1F8;
+    float Unknown1FC;
+
+    float Unknown200;
+    float Unknown204;
+    float Unknown208;
+    float Unknown20C;
+
+    float Unknown210;
+    float Unknown214;
+    float Unknown218;
+    float Unknown21C;
+
+    float EngineRenderDistance;
+    float Unknown224;
+    float Unknown228;
+    float Unknown22C;
+
+    float Unknown230;
+    uint Unknown234;
+    float Unknown238;
+    float Unknown23C;
+
+    float Unknown240;
+    float Unknown244;
+    float Unknown248;
+    float Unknown24C;
+
+    float Unknown250;
+    float Unknown254;
+    float Unknown258;
+    float Unknown25C;
+
+    float Unknown260;
+    float Unknown264;
+    float Unknown268;
+    float Unknown26C;
+
+    float Unknown270;
+    float Unknown274;
+    float Unknown278;
+    float Unknown27C;
+
+    float Unknown280;
+    float Unknown284;
+    float Unknown288;
+    float Unknown28C;
+
+    float Unknown290;
+    float Unknown294;
+    float Unknown298;
+    float Unknown29C;
+
+    float Unknown2A0;
+    float Unknown2A4;
+    float Unknown2A8;
+    float Unknown2AC;
+
+    float Unknown2B0;
+    float Unknown2B4;
+    float Unknown2B8;
+    float Unknown2BC;
+
+    bool Unknown2C0;
+    FSkip(3);
+
+    float Unknown2C4;
+    float Unknown2C8;
+    float Unknown2CC;
+
+    float Unknown2D0;
+    float Unknown2D4;
+    float Unknown2D8;
+    float Unknown2DC;
+
+    float Unknown2E0;
+    float Unknown2E4;
+    float Unknown2E8;
+    float Unknown2EC;
+
+    float Unknown2F0;
+    float Unknown2F4;
+    float Unknown2F8;
+    float Unknown2FC;
+
+    float Unknown300;
+    float Unknown304;
+    float Unknown308;
+    float Unknown30C;
+
+    float Unknown310;
+    float Unknown314;
+    float Unknown318;
+    float Unknown31C;
+
+    float Unknown320;
+    float Unknown324;
+    float Unknown328;
+    float Unknown32C;
+
+    float Unknown330;
+    float Unknown334;
+    float Unknown338;
+    float Unknown33C;
+
+    float Unknown340;
+    float Unknown344;
+    float Unknown348;
+    float Unknown34C;
+
+    float Unknown350;
+    float Unknown354;
+    float Unknown358;
+    float Unknown35C;
+
+    float Unknown360;
+    bool Unknown364;
+    bool Unknown365;
+    FSkip(2);
+    float Unknown368;
+    float Unknown36C;
+
+    float Unknown370;
+    float Unknown374;
+    float Unknown378;
+    float Unknown37C;
+
+    float Unknown380;
+    float Unknown384;
+    float Unknown388;
+    float Unknown38C;
+
+    float Unknown390;
+    float Unknown394;
+    float Unknown398;
+    float Unknown39C;
+
+    float Unknown3A0;
+    float Unknown3A4;
+    float Unknown3A8;
+    float Unknown3AC;
+
+    float Unknown3B0;
+    float Unknown3B4;
+    float Unknown3B8;
+    float Unknown3BC;
+
+    float Unknown3C0;
+    float Unknown3C4;
+    float Unknown3C8;
+    float Unknown3CC;
+
+    float Unknown3D0;
+    float Unknown3D4;
+    float Unknown3D8;
+    float Unknown3DC;
+
+    float Unknown3E0;
+    float Unknown3E4;
+    float Unknown3E8;
+    float Unknown3EC;
+
+    float Unknown3F0;
+    float Unknown3F4;
+    float Unknown3F8;
+    float Unknown3FC;
+
+    float Unknown400;
+    float Unknown404;
+    float Unknown408;
+    float Unknown40C;
+
+    float Unknown410;
+    float Unknown414;
+    float Unknown418;
+    float Unknown41C;
+
+    float Unknown420;
+    float Unknown424;
+    float Unknown428;
+    float Unknown42C;
+
+    float Unknown430;
+    float Unknown434;
+    float Unknown438;
+    float Unknown43C;
+
+    float Unknown440;
+    float Unknown444;
+    float Unknown448;
+    float Unknown44C;
+
+    float Unknown450;
+    float Unknown454;
+    float Unknown458;
+    float Unknown45C;
+
+    float Unknown460;
+    float Unknown464;
+    float Unknown468;
+    float Unknown46C;
+
+    float Unknown470;
+    float Unknown474;
+    float Unknown478;
+    float Unknown47C;
+
+    float Unknown480;
+    float Unknown484;
+    float Unknown488;
+    float Unknown48C;
+
+    GcPlanetWaterData PlanetWaterData1;
+
+    GcPlanetWaterData PlanetWaterData2;
+
+    float Unknown7F0;
+    float Unknown7F4;
+    float Unknown7F8;
+    float Unknown7FC;
+
+    bool Unknown800;
+    FSkip(3);
+
+    uint Unknown804[4];
+
+    uint Unknown814;
+
+    FSkip(8);
+};
+
+#endif

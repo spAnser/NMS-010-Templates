@@ -1,0 +1,267 @@
+#ifndef NMS_GcDebugOptions
+#define NMS_GcDebugOptions
+
+#include "NMSEnums.bt"
+#include "NMSBool.bt"
+
+struct GcDebugOptions {
+    bool SkipIntro;
+    bool VideoCaptureMode;
+    bool GodMode;
+    bool DisableVibration;
+
+    bool MapWarpCheckIgnoreFuel;
+    bool MapWarpCheckIgnoreDrive;
+    bool EverythingIsFree;
+    bool EverythingIsKnown;
+
+    bool EverythingIsStar;
+    bool UseScreenEffects;
+    bool UseGunImpactEffect;
+    bool RenderCreatureDetails;
+
+    uint ScreenWidth;
+    uint ScreenHeight;
+
+    bool DisableVSync;
+    FSkip(3);
+
+    gameWindowMode GameWindowMode;
+
+    uint Monitor;
+
+    char ForceUniverseAddress[0x100];
+    char ForcePlayerPosition[0x100];
+
+    bool ForceInitialShip;
+    bool ForceInitialWeapon;
+    FSkip(2);
+
+    gameStateMode GameStateMode;
+
+    bootMode BootMode;
+    playerSpawnLocationOverride PlayerSpawnLocationOverride;
+
+    char SceneSettings[0x80];
+    char WorkingDirectory[0x100];
+
+    solarSystemBoot SolarSystemBoot;
+    shaderPreload ShaderPreload;
+
+    bool ShaderPreloadListExport;
+    bool ShaderPreloadListImport;
+    bool ShaderCaching;
+    FSkip(1);
+
+    bootLoadDelay BootLoadDelay;
+
+    bool UseParticles;
+    bool UseVolumetrics;
+    bool UseClouds;
+    bool UseTerrain;
+
+    bool UseInstances;
+    bool UseObjects;
+    bool UseBuildings;
+    bool UseCreatures;
+
+    bool UseElevation;
+    bool SpawnPirates;
+    bool SpawnRobots;
+    bool SpawnShips;
+
+    bool InstanceCollision;
+    bool MouseLookEnabled;
+    bool StartPaused;
+    bool DisableDebugControls;
+
+    bool DisableAsserts;
+    bool FixedFramerate;
+    bool ScreenshotMode;
+    bool RenderHud;
+
+    bool DebugDrawPlayerInteract;
+    bool ForceInteractionToSettings;
+    FSkip(2);
+
+    uint ForceInteractionIndex;
+
+    bool InteractionsAllwaysGivesTech;
+    bool InfiniteInteractions;
+    bool StopSwitchingToSecondaryInteractions;
+    FSkip(1);
+
+    uint DebugLanguages;
+
+    char AllowedLanguagesFile[0x20];
+    bool DoAlienLanguage;
+    FSkip(3);
+
+    uint ForceInteractionRaceTo;
+    realityMode RealityMode;
+    bool DebugPersistentInteractions;
+
+    char RealityPresetFile[0x80];
+    FSkip(1);
+    ushort RealityGenerationIteration;
+
+    char DefaultSaveData[0x80];
+    bool FormatDownloadStorageAreaOnBoot;
+    bool ForceBasicLoadScreen;
+    FSkip(2);
+
+    float BootLogoFadeRate;
+    bool BootMusic;
+    bool LogMissingLocalisedText;
+    bool FleetDirectorAutoMode;
+    FSkip(1);
+
+    float _3dTextDistance;
+    float _3dTextMinScale;
+    recordSetting RecordSetting;
+
+    bool DebugBuildingSpawns;
+    bool StressTestLongNameDisplay;
+    bool ShowFramerate;
+    bool ShowPositionDebug;
+
+    bool ShowGPUMemory;
+    bool ShowMempoolOverlay;
+
+    char ShowUniverseAddressOnGalaxyMap[0x100];
+
+    bool ShowGraphs;
+    bool GraphCommandBuffer;
+    bool GraphGeneration;
+    bool GraphFPS;
+
+    bool SmokeTestDumpStatsMode;
+    FSkip(1);
+
+    smokeTestCycleMode SmokeTestCycleMode;
+
+    bool SmokeTestCameraFly;
+    FSkip(3);
+
+    uint SmokeTestConfigCaptureCycles;
+    float SmokeTestConfigCaptureDurationInSeconds;
+    uint SmokeTestConfigCaptureFolderNameNumberOffset;
+
+    bool SmokeTestConfigRandomizePlanetSeed;
+    bool CreatureChatter;
+    bool CreatureErrors;
+    bool CreatureDrawVocals;
+
+    bool DrawCreaturesInRoutines;
+    bool CompressTextures;
+    bool DebugIBL;
+    bool DisableShadowSwitching;
+
+    char PipelineFile[0x80];
+    char PipelineFilePS4[0x80];
+
+    bool RenderLowFramerate;
+    bool SimulateNoNetworkConnection;
+    FSkip(2);
+
+    proxyType ProxyType;
+    char ProxyURI[0x80];
+    serverEnv ServerEnv;
+    char AuthBaseUrl[0x80];
+
+    bool CertificateSecurityBypass;
+    FSkip(3);
+
+    char OverrideUsernameForDev[0x20];
+    uint DiscoveryAutoSyncIntervalSeconds;
+    uint DiscoveryTrimLimitOverride;
+    uint DiscoveryTrimTriggerOverride;
+
+    bool EnableSynergy;
+    FSkip(3);
+
+    char SynergyServer[0x20];
+    uint SynergyPort;
+    uint MaxNumDebugMessages;
+
+    bool PreloadToolbox;
+    FSkip(3);
+
+    uint DebugTextureSize;
+
+    bool UseProcTextureDebugger;
+    FSkip(3);
+
+    uint ProceduralModelsShown;
+    uint ProceduralModelBatchSize;
+    char DebugFont[0x80];
+    char DebugFontTexture[0x80];
+    char CursorTexture[0x80];
+    char PauseTexture[0x80];
+    char PlayTexture[0x80];
+    char StepTexture[0x80];
+    char RenderToTexture[0x80];
+
+    bool HmdEnable;
+    bool HmdOutput;
+    bool HmdTracking;
+    bool HmdStereoRender;
+
+    bool HmdDistortionPassthru;
+    FSkip(3);
+
+    uint HmdMonitor;
+    uint HmdEyeBufferWidth;
+    uint HmdEyeBufferHeight;
+    float HmdEyeScalePos;
+    float HmdHeadScalePos;
+    float HmdImmersionFactor;
+
+    bool ForceExtremeWeather;
+    bool ForceExtremeSentinels;
+    bool ForceBiome;
+    FSkip(1);
+
+    uint ForceBiomeTo;
+
+    bool ForceBuildingRace;
+    FSkip(3);
+
+    uint ForceBuildingRaceTo;
+
+    bool ForceLifeLevel;
+    FSkip(3);
+
+    uint ForceLifeLevelTo;
+    uint ForceAnomalyTo;
+
+    bool DisableLimits;
+    bool LimitPerRegionInstances;
+    bool LimitPerRegionBodies;
+    bool LimitGlobalInstances;
+
+    bool LimitGlobalBodies;
+    FSkip(3);
+
+    uint GenerateFarLodBuildingDist;
+
+    bool DeferRegionBodies;
+    FSkip(3);
+
+    float GenerateCostDistance;
+    float GenerateCostAngle;
+    float GenerateCostLOD;
+    float GenerateCostWait;
+
+    bool DChecksEnabled;
+    bool DChecksOutputJson;
+    bool DChecksOutputBinary;
+    bool DChecksOutputFileLine;
+
+    uint FrameFlipRateDefault;
+    uint FrameFlipRateLoad;
+    uint FrameFlipRateGame;
+    float MaxFrameRate;
+};
+
+#endif

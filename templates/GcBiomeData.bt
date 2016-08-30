@@ -29,7 +29,7 @@ struct GcBiomeData
         GcExternalObjectListOptions Options[LIST_SIZE] <optimize=false>;
         END_UNIFORM_LIST;
     } ObjectListOptions;
-    
+
     bool IsClear;
     bool IsDust;
     bool ISHumid;

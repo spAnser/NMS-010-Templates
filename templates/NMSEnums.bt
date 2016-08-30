@@ -307,4 +307,98 @@ enum TerrainTileType {
     Tile_Substance
 };
 
+enum gameWindowMode
+{
+    Bordered,
+    Borderless,
+    Fullscreen
+};
+
+enum gameStateMode
+{
+    GameStateMode_LoadPreset,
+    UserStorage,
+    FreshStart
+};
+
+enum bootMode
+{
+    SolarSystem,
+    GalaxyMap,
+    SmokeTest,
+    SmokeTestGalaxyMap,
+    Scratchpad,
+    UnitTest
+};
+
+enum playerSpawnLocationOverride
+{
+    PlayerSpawnLocationOverride_None,
+    InNearestStation,
+    OnNearestPlanet,
+    OnFurthestPlanet,
+    NextToPlayerShip,
+    PlayerSpawnLocationOverride_FromSettings,
+    OnRandomPlanet,
+    OnGameStartPlanet,
+    AwayFromYourShip
+};
+
+enum solarSystemBoot
+{
+    SolarSystemBoot_FromSettings,
+    SolarSystemBoot_Generate
+};
+
+enum shaderPreload
+{
+    Off,
+    Full
+};
+
+enum bootLoadDelay
+{
+    LoadAll,
+    WaitForPlanet,
+    WaitForNothing
+};
+
+enum realityMode
+{
+    RealityMode_LoadPreset,
+    RealityMode_Generate
+};
+
+enum recordSetting
+{
+    RecordSetting_None,
+    Record,
+    Playback
+};
+
+enum smokeTestCycleMode
+{
+    SmokeTestCycleMode_None,
+    TourSolarSystem,
+    RegeneratePlanet
+};
+
+enum proxyType
+{
+    ProxyType_None,
+    ManualURI,
+    InetProxy
+};
+
+enum serverEnv
+{
+    Default,
+    dev,
+    qa,
+    prodqa,
+    prod,
+    custom,
+    pentest
+};
+
 #endif

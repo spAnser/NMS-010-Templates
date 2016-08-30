@@ -53,6 +53,10 @@
 #include "TkPaletteTexture.bt"
 #include "GcBiomeData.bt"
 
+#include "GcGraphicsGlobals.bt"
+#include "GcDebugOptions.bt"
+#include "GcUIGlobals.bt"
+
 #endif
 
 

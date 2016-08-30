@@ -1,0 +1,37 @@
+#ifndef NMS_TkImGuiSettings
+#define NMS_TkImGuiSettings
+
+#include "NMSBool.bt"
+
+struct TkImGuiSettings {
+    colour BackgroundColour;
+    colour WindowTitleColour;
+    colour ActiveWindowTitleColour;
+    colour WindowBackgroundColour;
+    colour ActiveWindowBackgroundColour;
+    colour WindowHighlight;
+    colour TextColour;
+    colour ActiveTextColour;
+    colour TextShadowColour;
+    colour TextDisabledColour;
+    colour ButtonColour;
+    colour ButtonHighlightColour;
+    colour ButtonPressedColour;
+    colour EditBoxColour;
+    colour EditBoxActiveColour;
+    colour EditBoxSelectedColour;
+    colour TaskBarColour;
+    colour TaskBarShadow;
+    colour CloseButtonColour;
+    colour CloseButtonHighlightColour;
+    colour CloseButtonClickColour;
+    colour MinimiseButtonColour;
+    colour MinimiseButtonHighlightColour;
+    colour MinimiseButtonClickColour;
+    float ScrollSpeed;
+    float AltPlacementDistanceScrollSpeed;
+
+    FSkip(8);
+};
+
+#endif
