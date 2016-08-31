@@ -1,6 +1,8 @@
 #ifndef NMS_GcUIGlobals
 #define NMS_GcUIGlobals
 
+#include "NMSMath.bt"
+
 struct GcUIGlobals {
     uint unknown0;
     float unknown4;
@@ -35,33 +37,23 @@ struct GcUIGlobals {
     float unknown7C;
     float unknown80;
     float unknown84;
-    //double unknown88;
-    float unknown88;
-    FSkip(4);
+    Vector2f unknown88;
     float unknown90;
     float unknown94;
     float unknown96;
     float unknown9C;
     float unknownA0;
-    //double unknown164;
-    float unknownA4;
-    FSkip(4);
+    Vector2f unknownA4;
     float unknownAC;
     float unknownB0;
-    //double unknownB4;
-    float unknownB4;
-    FSkip(4);
+    Vector2f unknownB4;
     uint unknownBC; // enum?
     float unknownC0;
     float unknownC4;
-    //double unknownC8;
-    float unknownC8;
-    FSkip(4);
+    Vector2f unknownC8;
     uint unknownD0; // enum?
     FSkip(12);
-    //double unknownE0;
-    float unknownE0;
-    FSkip(4);
+    Vector2f unknownE0;
     float unknownE8;
     float unknownEC;
     float unknownF0;
@@ -69,9 +61,7 @@ struct GcUIGlobals {
     float unknownF8;
     float unknownFC;
     float unknown100;
-    //double unknown104;
-    float unknown104;
-    FSkip(4);
+    Vector2f unknown104;
     float unknown10C;
     float unknown110;
     uint unknown114;
@@ -104,9 +94,7 @@ struct GcUIGlobals {
     float unknown184;
     float unknown188;
     float unknown18C;
-    //double unknown190;
-    float unknown190;
-    FSkip(4);
+    Vector2f unknown190;
     float unknown198; // uint?
     float unknown19C;
     float unknown1A0;
@@ -246,9 +234,7 @@ struct GcUIGlobals {
     float unknown1E74;
     float unknown1E78;
     float unknown1E7C;
-    //double unknown1E80; // uint64?
-    float unknown1E80;
-    FSkip(4);
+    Vector2f unknown1E80;
     uint unknown1E88;
     FSkip(4);
     float unknown1E90;
@@ -264,13 +250,9 @@ struct GcUIGlobals {
     float unknown1EB8;
     float unknown1EBC;
     float unknown1EC0;
-    //double unknown1EC4;
-    float unknown1EC4;
-    FSkip(4);
+    Vector2f unknown1EC4;
     float unknown1ECC;
-    //double unknown1ED0;
-    float unknown1ED0;
-    FSkip(4);
+    Vector2f unknown1ED0;
     float unknown1ED8; // uint?
     float unknown1EDC;
     float unknown1EE0;
@@ -278,35 +260,23 @@ struct GcUIGlobals {
     float unknown1EF0;
     float unknown1EF4;
     float unknown1EF8;
-    //double unknown1EFC;
-    float unknown1EFC;
-    FSkip(4);
-    //double unknown1F04; // uint64?
-    float unknown1F04;
-    FSkip(4);
+    Vector2f unknown1EFC;
+    Vector2f unknown1F04;
     float unknown1F0C;
     float unknown1F10;
     float unknown1F14;
     float unknown1F18;
-    //double unknown1F1C;
-    float unknown1F1C;
-    FSkip(4);
-    //double unknown1F24; // uint64?
-    float unknown1F24;
-    FSkip(4);
+    Vector2f unknown1F1C;
+    Vector2f unknown1F24;
     float unknown1F2C;
     float unknown1F30; // uint?
     float unknown1F34; // uint?
     float unknown1F38;
     float unknown1F3C; // uint?
-    //double unknown1F40; // uint64?
-    float unknown1F40;
-    FSkip(4);
+    Vector2f unknown1F40;
     float unknown1F48;
     float unknown1F4C;
-    //double unknown1F50;
-    float unknown1F50;
-    FSkip(4);
+    Vector2f unknown1F50;
     float unknown1F58;
     float unknown1F5C;
     float unknown1F60;
@@ -402,9 +372,7 @@ struct GcUIGlobals {
     float unknown29B0;
     float unknown29B4;
     float unknown29B8;
-    //double unknown29BC; // uint64?
-    float unknown29BC;
-    FSkip(4);
+    Vector2f unknown29BC;
     float unknown29C4;
     float unknown29C8;
     float unknown29CC;
@@ -418,13 +386,10 @@ struct GcUIGlobals {
         struct {
             float unknown0;
             FSkip(12);
-            //double unknown10; // uint64?
-            float unknown10;
-            FSkip(4);
+            Vector2f unknown10;
             float unknown18; // uint?
-            //double unknown20; // uint64?
-            float unknown20;
-            FSkip(8);
+            Vector2f unknown20;
+            FSkip(4);
             float unknown28;
             float unknown2C;
             bool unknown30;
@@ -433,16 +398,12 @@ struct GcUIGlobals {
             float unknown38;
             FSkip(4);
             float unknown40;
-            //double unknown44;
-            float unknown44;
-            FSkip(4);
+            Vector2f unknown44;
             uint unknown4C;
-            //double unknown50; // uint64?
+            //double unknown50;
             //float unknown50;
             char unknown50[0x8];
-            //double unknown58; // uint64?
-            float unknown58;
-            FSkip(4);
+            Vector2f unknown58;
             float unkown60;
             FSkip(12);
         } Unknown29E0;
@@ -455,21 +416,15 @@ struct GcUIGlobals {
     float unknown2FA4;
     float unknown2FA8;
     float unknown2FAC;
-    //double unknown2FB0; // uint64?
-    float unknown2FB0;
-    FSkip(4);
-    float unknown2FB8; // uint64?
+    Vector2f unknown2FB0;
+    float unknown2FB8; // uint?
     float unknown2FBC;
     float unknown2FC0;
     float unknown2FC4;
     float unknown2FC8;
     float unknown2FCC;
-    //double unknown2FD0; // uint64?
-    float unknown2FD0;
-    FSkip(4);
-    //double unknown2FD8; // uint64?
-    float unknown2FD8;
-    FSkip(4);
+    Vector2f unknown2FD0;
+    Vector2f unknown2FD8;
     float unknown2FE0;
     float unknown2FE4;
     float unknown2FE8;
@@ -477,18 +432,12 @@ struct GcUIGlobals {
     float unknown2FF0;
     float unknown2FF4;
     float unknown2FF8;
-    //double unknown2FFC; // uint64?
-    float unknown2FFC;
-    FSkip(4);
-    //double unknown3004; // uint64?
-    float unknown3004;
-    FSkip(4);
+    Vector2f unknown2FFC;
+    Vector2f unknown3004;
     float unknown300C;
     float unknown3010;
-    //double unknown3014; // uint64?
-    float unknown3014;
-    FSkip(4);
-    float unknown301C; // uint64?
+    Vector2f unknown3014;
+    float unknown301C; // uint?
     float unknown3020;
     float unknown3024;
     float unknown3028;
@@ -497,9 +446,7 @@ struct GcUIGlobals {
     float unknown3034;
     float unknown3038;
     float unknown303C;
-    //double unknown3040; // uint64?
-    float unknown3040;
-    FSkip(4);
+    Vector2f unknown3040;
     float unknown3048;
     float unknown304C;
     float unknown3050;
@@ -513,9 +460,7 @@ struct GcUIGlobals {
     float unknown3070;
     FSkip(12);
     float unknown3080;
-    //double unknown3084; // uint64?
-    float unknown3084;
-    FSkip(4);
+    Vector2f unknown3084;
     float unknown308C;
     float unknown3090;
     float unknown3094;
@@ -566,15 +511,11 @@ struct GcUIGlobals {
     float unknown3154;
     float unknown3158;
     FSkip(4);
-    //double unknown3160; // uint64?
-    float unknown3160;
-    FSkip(4);
-    float unknown3168; // uint64?
+    Vector2f unknown3160;
+    float unknown3168; // uint?
     float unknown316C;
     float unknown3170;
-    //double unknown3174; // uint64?
-    float unknown3174;
-    FSkip(4);
+    Vector2f unknown3174;
     float unknown317C;
     float unknown3180;
     float unknown3184;
@@ -688,10 +629,149 @@ struct GcUIGlobals {
     char unknown3A20[0x100];
     float unknown3B20;
     float unknown3B24;
+    float unknown3B28;
+    Vector2f unknown3B2C;
+    float unknown3B34; // uint?
+    float unknown3B38;
+    float unknown3B3C;
+    float unknown3B40;
+    float unknown3B44;
+    float unknown3B48;
+    float unknown3B4C;
+    float unknown3B50;
+    float unknown3B54;
+    float unknown3B58;
+    float unknown3B5C;
+    float unknown3B60;
+    float unknown3B64;
+    float unknown3B68;
+    float unknown3B6C;
+    float unknown3B70;
+    float unknown3B74;
+    float unknown3B78;
+    float unknown3B7C;
+    float unknown3B80;
+    Vector2f unknown3B84;
+    float unknown3B8C;
+    float unknown3B90;
+    float unknown3B94;
+    float unknown3B98;
+    float unknown3B9C;
+    float unknown3BA0;
+    float unknown3BA4;
+    FSkip(8);
+    float unknown3BB0;
+    float unknown3BB4;
+    float unknown3BB8;
+    float unknown3BBC;
+    float unknown3BC0;
+    float unknown3BC4;
+    float unknown3BC8;
+    float unknown3BCC;
+    float unknown3BD0;
+    float unknown3BD4;
+    FSkip(8);
+    float unknown3BE0;
+    float unknown3BE4;
+    float unknown3BE8;
+    float unknown3BEC;
+    float unknown3BF0;
+    Vector2f unknown3BF4;
+    float unknown3BFC; // uint?
+    float unknown3C00;
+    float unknown3C04;
+    float unknown3C08;
+    float unknown3C0C;
+    float unknown3C10;
+    float unknown3C14;
+    float unknown3C18;
+    float unknown3C1C;
+    float unknown3C20;
+    float unknown3C24;
+    FSkip(8);
+    float unknown3C30;
+    float unknown3C34;
+    float unknown3C38; // uint?
+    FSkip(4);
+    float unknown3C40;
+    float unknown3C44;
+    float unknown3C48; // uint?
+    FSkip(4);
+    float unknown3C50;
+    float unknown3C54;
+    float unknown3C58; // uint?
+    FSkip(4);
+    float unknown3C60;
+    float unknown3C64;
+    float unknown3C68;
+    float unknown3C6C;
+    float unknown3C70;
+    float unknown3C74;
+    float unknown3C78;
+    float unknown3C7C;
+    float unknown3C80;
+    float unknown3C84;
+    float unknown3C88;
+    float unknown3C8C;
+    float unknown3C90;
+    float unknown3C94;
+    float unknown3C98;
+    Vector2f unknown3C9C;
+    bool unknown3CA4; // bool?
+    FSkip(3);
+    float unknown3CA8;
+    float unknown3CAC;
+    float unknown3CB0;
+    float unknown3CB4; // uint?
+    float unknown3CB8;
+    float unknown3CBC; // uint?
+    float unknown3CC0;
+    float unknown3CC4;
+    float unknown3CC8;
 
-
-
-
+    // unknown3CCC
+    for (i=0;i<13;i++) {
+        struct {
+            float unknown0; // uint?
+            float unknown4;
+        } Unknown3CCC;
+    }
+    bool unknown3D34;
+    FSkip(3);
+    float unknown3D38;
+    float unknown3D3C;
+    Vector2f unknown3D40;
+    Vector2f unknown3D48;
+    bool unknown3D50;
+    FSkip(3);
+    float unknown3D54;
+    float unknown3D58;
+    Vector2f unknown3D5C;
+    Vector2f unknown3D64;
+    bool unknown3D6C;
+    FSkip(3);
+    float unknown3D70;
+    float unknown3D74;
+    Vector2f unknown3D78;
+    Vector2f unknown3D80;
+    bool unknown3D88;
+    FSkip(3);
+    float unknown3D8C;
+    float unknown3D90;
+    Vector2f unknown3D94;
+    Vector2f unknown3D9C;
+    bool unknown3DA4;
+    FSkip(3);
+    float unknown3DA8;
+    float unknown3DAC;
+    Vector2f unknown3DB0;
+    Vector2f unknown3DB8;
+    bool unknown3DC0;
+    FSkip(3);
+    float unknown3DC4;
+    float unknown3DC8;
+    Vector2f unknown3DCC;
+    Vector2f unknown3DD4;
 };
 
 #endif
